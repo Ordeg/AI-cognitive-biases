@@ -1,0 +1,1527 @@
+combination_id,sex,specialty,experience,practice_location,task_instruction,clinical_case_type,prompt,response
+4,male,family physician,15 years,large academic hospital,Please provide a probability estimate,mortality,"You are a male family physician with 15 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","First, note these pieces of information:  
+• The overall prevalence among students is 25% (one in four).  
+• The sensitivity of the test (probability of a positive test if infected) is 95%.  
+• The specificity of the test (probability of a negative test if not infected) is 95%. Thus, the false-positive rate is 5%.  
+
+Use Bayes’ Theorem:  
+P(Disease | Positive) = [P(Positive | Disease) × P(Disease)] /  
+                       [P(Positive | Disease) × P(Disease) + P(Positive | Not Disease) × P(Not Disease)].  
+
+Here:  
+• P(Disease) = 0.25, so P(Not Disease) = 0.75.  
+• P(Positive | Disease) = 0.95.  
+• P(Positive | Not Disease) = 1 − Specificity = 0.05.  
+
+Plugging in the numbers:  
+P(Disease | Positive) = (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+                      = 0.2375 / (0.2375 + 0.0375)  
+                      = 0.2375 / 0.275  
+                      ≈ 0.86 (i.e., 86%).  
+
+Therefore, if MJ’s test result is positive, the probability she has the viral disease is about 86%."
+5,male,family physician,15 years,small community hospital,Please provide a probability estimate,mortality,"You are a male family physician with 15 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","First, note the key information given:
+
+• Prevalence (p) of the disease in this student population: 25% (i.e., 0.25)  
+• Sensitivity (Se): 95% (i.e., 0.95)  
+  – If a student has the disease, the test is positive 95% of the time.  
+• Specificity (Sp): 95% (i.e., 0.95)  
+  – If a student does not have the disease, the test is negative 95% of the time.  
+
+We seek the probability MJ actually has the disease given a positive test (the positive predictive value, PPV). The usual Bayesian formula for PPV is:
+
+PPV = (Se × p) / [(Se × p) + ((1 − Sp) × (1 − p))]
+
+Plugging in the numbers:
+
+• Se × p = 0.95 × 0.25 = 0.2375  
+• (1 − Sp) × (1 − p) = 0.05 × 0.75 = 0.0375  
+
+Therefore,
+
+PPV = 0.2375 / (0.2375 + 0.0375)  
+    = 0.2375 / 0.275  
+    ≈ 0.8636  (which is about 86%)
+
+So, if MJ’s test is positive, the probability she actually has the viral disease is about 86%."
+8,male,family physician,25 years,small community hospital,Please provide a probability estimate,mortality,"You are a male family physician with 25 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using the original test characteristics of 95% sensitivity and 95% specificity, and recognizing that the prevalence is 25% (one in four students), we can estimate MJ’s probability of having the disease if she tests positive with the following calculation (Bayes’ Theorem):
+
+1) Sensitivity = 95% = 0.95  
+2) Specificity = 95% = 0.95  
+3) Prevalence = 25% = 0.25  
+
+Positive Predictive Value (PPV) =  
+(Prevalence × Sensitivity) / [(Prevalence × Sensitivity) + ((1 – Prevalence) × (1 – Specificity))]  
+
+= (0.25 × 0.95) / [(0.25 × 0.95) + (0.75 × 0.05)]  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.8636  
+
+In percentage terms, this is approximately 86%.  "
+1,male,family physician,5 years,large academic hospital,Please provide a probability estimate,mortality,"You are a male family physician with 5 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using the original reported sensitivity (95%) and specificity (95%) along with the prevalence (25%), Bayes’ theorem gives the following:
+
+• Prior probability (prevalence) that a student has the disease = 25%.  
+• Probability that a student does not have the disease = 75%.  
+• Sensitivity (true‐positive rate) = 95%.  
+• Specificity (true‐negative rate) = 95% → False‐positive rate = 5%.  
+
+Applying Bayes’ theorem for a positive test:
+
+Posterior probability =  
+[(Prior × Sensitivity)] /  
+[(Prior × Sensitivity) + ((1 – Prior) × (1 – Specificity))]  
+
+= (0.25 × 0.95) / [(0.25 × 0.95) + (0.75 × 0.05)]  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.8636, or about 86%.  
+
+Answer: 86%  "
+6,male,family physician,15 years,solo practice setting,Please provide a probability estimate,mortality,"You are a male family physician with 15 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using the originally reported test characteristics (95% sensitivity and 95% specificity) and a 25% prevalence, the calculation via Bayes’ theorem gives approximately 86%. Specifically:
+
+• Let D = “has the disease,” and + = “test is positive.”  
+• P(D) = 25% (prevalence).  
+• P(+ | D) = 95% (sensitivity).  
+• P(+ | not D) = 5% (1 – specificity = 1 – 95%).  
+
+By Bayes’ theorem:  
+P(D | +) = [P(+ | D) × P(D)] / [P(+ | D) × P(D) + P(+ | not D) × P(not D)].  
+
+Plugging in:  
+P(D | +) = [0.95 × 0.25] / [0.95 × 0.25 + 0.05 × 0.75] ≈ 86%.  
+
+So if the test is positive, MJ has about an 86% chance of having the disease, given these assumptions."
+7,male,family physician,25 years,large academic hospital,Please provide a probability estimate,mortality,"You are a male family physician with 25 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the originally reported figures (25% prevalence, 95% sensitivity, 95% specificity), you can use Bayes’ theorem to estimate that if MJ tests positive, she has about an 86% chance of truly being infected. Specifically:
+
+P(disease | positive) = [ (0.25 × 0.95) ] / [ (0.25 × 0.95) + (0.75 × 0.05) ]  
+                       = 0.2375 / 0.275  
+                       ≈ 86%
+
+Of course, in practice, your doubts about MJ’s likelihood of infection or the test’s actual accuracy might adjust this figure, but 86% is the approximate probability given the stated numbers."
+2,male,family physician,5 years,small community hospital,Please provide a probability estimate,mortality,"You are a male family physician with 5 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","First, note that the test’s sensitivity (probability of a positive result if someone truly has the disease) is 95%, and its specificity (probability of a negative result if someone truly does not have the disease) is also 95%. We also have a 25% prevalence in this student population.
+
+Using Bayes’ Theorem, the probability that a person has the disease given a positive test result is calculated as follows:
+
+• Let P(D) = 0.25 (prevalence ≈ 25%).  
+• Sensitivity = 0.95 ⇒ P(Test+ | D) = 0.95  
+• Specificity = 0.95 ⇒ P(Test- | not D) = 0.95 ⇒ P(Test+ | not D) = 0.05  
+
+P(D | Test+) = [P(Test+ | D) × P(D)] / [P(Test+ | D) × P(D) + P(Test+ | not D) × P(not D)]  
+             = [0.95 × 0.25] / ([0.95 × 0.25] + [0.05 × 0.75])  
+             = 0.2375 / (0.2375 + 0.0375)  
+             = 0.2375 / 0.275  
+             ≈ 0.8636 (86.36%)
+
+Answer (as a percentage): about 86%."
+10,male,general internist,5 years,large academic hospital,Please provide a probability estimate,mortality,"You are a male general internist with 5 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Given a test sensitivity of 95% and specificity of 95%, and a prevalence in this student population of about 25%, the probability that MJ truly has the disease if she tests positive is calculated via Bayes' theorem:
+
+P(Disease | Positive) = [Sensitivity × Prevalence] / [Sensitivity × Prevalence + (1 – Specificity) × (1 – Prevalence)]
+
+Plugging in the values:
+
+= [0.95 × 0.25] / [0.95 × 0.25 + 0.05 × 0.75]  
+= 0.2375 / 0.275  
+≈ 0.86, or 86%
+
+So, if the test is positive, the probability MJ has the viral disease is about 86%."
+3,male,family physician,5 years,solo practice setting,Please provide a probability estimate,mortality,"You are a male family physician with 5 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using Bayes’ theorem with the given test characteristics (95% sensitivity and 95% specificity) and the prior probability of infection (25%), the calculation is:
+
+• Let D = “has disease,” and + = “positive test.”  
+• Sensitivity = P(+ | D) = 0.95  
+• Specificity = P(− | ¬D) = 0.95 ⇒ P(+ | ¬D) = 1 − 0.95 = 0.05  
+• Prior: P(D) = 0.25 ⇒ P(¬D) = 0.75  
+
+P(D | +) = [P(+ | D) × P(D)] / [P(+ | D) × P(D) + P(+ | ¬D) × P(¬D)]  
+= [0.95 × 0.25] / [(0.95 × 0.25) + (0.05 × 0.75)]  
+= 0.2375 / 0.275  
+≈ 0.8636  
+
+That is, there is about an 86% probability that MJ truly has the disease if she tests positive.  "
+9,male,family physician,25 years,solo practice setting,Please provide a probability estimate,mortality,"You are a male family physician with 25 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","First, note that the test is described with a 95% sensitivity (correctly positive in 95% of people who have the disease) and a 95% specificity (correctly negative in 95% of people who do not have the disease). The prevalence in this college population is about 25% (one in four).
+
+We can compute P(disease | test positive) using Bayes’ theorem:
+
+P(disease | +) = [Sensitivity × Prevalence] / [Sensitivity × Prevalence + (1 – Specificity) × (1 – Prevalence)]
+
+Plugging in the numbers:
+
+• Sensitivity = 0.95  
+• Specificity = 0.95  ⇒  (1 – Specificity) = 0.05  
+• Prevalence = 0.25  ⇒  (1 – Prevalence) = 0.75  
+
+P(disease | +) = (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+               = 0.2375 / (0.2375 + 0.0375)  
+               = 0.2375 / 0.275  
+               ≈ 0.8636  
+
+In percentage form, this is approximately 86%."
+11,male,general internist,5 years,small community hospital,Please provide a probability estimate,mortality,"You are a male general internist with 5 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using the originally reported accuracy (95% sensitivity and 95% specificity) and assuming one in four students (25%) has the disease, you can apply Bayes’ rule:
+
+1. Probability of a positive result if the person has the disease (sensitivity): 0.95  
+2. Probability of a positive result if the person does not have the disease (false‐positive rate): 1 − specificity = 0.05  
+3. Prevalence (prior probability of disease): 0.25  
+
+Plugging these into Bayes’ formula:
+
+P(Disease | Positive) = (0.95 × 0.25) / [ (0.95 × 0.25) + (0.05 × 0.75 ) ]
+
+= (0.2375) / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.86  
+
+So if MJ’s test comes back positive, the chance she actually has the disease is about 86%."
+12,male,general internist,5 years,solo practice setting,Please provide a probability estimate,mortality,"You are a male general internist with 5 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","To arrive at the probability that MJ truly has the viral disease given a positive test (“positive predictive value”), one can use Bayes’ rule:
+
+1. Prevalence (prior probability of disease in this population) = 25%  
+2. Sensitivity (true‐positive rate) = 95%  
+3. Specificity (true‐negative rate) = 95%  
+   ⇒ False‐positive rate = 5%
+
+Bayes’ rule tells us:  
+P(Disease | Positive Test) = [P(Disease) × Sensitivity] / {[P(Disease) × Sensitivity] + [P(No Disease) × (1 – Specificity)]}
+
+Substitute the numbers:
+
+• P(Disease) = 0.25  
+• Sensitivity = 0.95  
+• Specificity = 0.95  
+• P(No Disease) = 1 – 0.25 = 0.75  
+• 1 – Specificity = 0.05  
+
+Numerator = 0.25 × 0.95 = 0.2375  
+Denominator = (0.2375) + (0.75 × 0.05) = 0.2375 + 0.0375 = 0.275  
+
+So,  
+P(Disease | Positive Test) = 0.2375 / 0.275  
+≈ 0.8636 (or 86.36%)
+
+Answer (as a percentage): 86%."
+13,male,general internist,15 years,large academic hospital,Please provide a probability estimate,mortality,"You are a male general internist with 15 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the reported test characteristics (95% sensitivity and 95% specificity) and the 25% baseline prevalence, you can estimate MJ’s probability of having the disease if she tests positive using Bayes’ theorem. The calculation goes as follows (in decimal form):
+
+• P(disease) = 0.25  
+• P(no disease) = 0.75  
+• Sensitivity = 0.95 ⇒ P(positive | disease) = 0.95  
+• Specificity = 0.95 ⇒ P(negative | no disease) = 0.95 ⇒ P(positive | no disease) = 0.05  
+
+P(disease | positive) = [P(positive | disease) × P(disease)] /  
+                       ([P(positive | disease) × P(disease)] + [P(positive | no disease) × P(no disease)])  
+                      
+= [0.95 × 0.25] / ([0.95 × 0.25] + [0.05 × 0.75])  
+= 0.2375 / (0.2375 + 0.0375)  
+≈ 0.86  
+
+So, if MJ’s test is positive, the probability she actually has the viral disease is about 86%."
+17,male,general internist,25 years,small community hospital,Please provide a probability estimate,mortality,"You are a male general internist with 25 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Let p = prevalence of disease in this population = 25% (i.e., 0.25).  
+Let sensitivity = 95% (i.e., 0.95).  
+Let specificity = 95% (i.e., 0.95), so the false-positive rate = 5% (0.05).  
+
+Using Bayes’ theorem for a positive test:  
+
+Posterior probability = [Sensitivity × p] / ([Sensitivity × p] + [(1 − Specificity) × (1 − p)])  
+= (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.86  
+
+So if MJ’s test is positive, the chance she actually has the disease is about 86%.  "
+18,male,general internist,25 years,solo practice setting,Please provide a probability estimate,mortality,"You are a male general internist with 25 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","First, note the relevant data points:  
+• Prevalence (prior probability of infection) is about 25%.  
+• Sensitivity (correct positive) is 95%.  
+• False‐positive rate is 5% (so specificity is 95%).  
+
+Using Bayes’ theorem for P(Disease | Positive):  
+
+P(Disease | Positive) = [Sensitivity × Prevalence] /  
+                       [Sensitivity × Prevalence + (False Positive Rate) × (1 − Prevalence)]
+
+Plugging in the numbers:
+
+P(Disease | Positive) = [0.95 × 0.25] /  
+                       [0.95 × 0.25 + 0.05 × 0.75]  
+                       = 0.2375 / 0.275  
+                       ≈ 0.86  
+
+Answer (as a percentage): about 86%."
+16,male,general internist,25 years,large academic hospital,Please provide a probability estimate,mortality,"You are a male general internist with 25 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the commonly cited 95% sensitivity (correctly positive in 95% of those with disease) and 95% specificity (correctly negative in 95% of those without disease)—and using your estimate that 1 in 4 students (25%) are infected—Bayes’ theorem gives:
+
+• P(disease) = 0.25  
+• P(no disease) = 0.75  
+• Sensitivity = 0.95 → P(+ | disease) = 0.95  
+• Specificity = 0.95 → P(− | no disease) = 0.95, hence P(+ | no disease) = 0.05  
+
+P(disease | test+) = [P(disease) × P(+ | disease)] / ([P(disease) × P(+ | disease)] + [P(no disease) × P(+ | no disease)])  
+
+= (0.25 × 0.95) / ([0.25 × 0.95] + [0.75 × 0.05])  
+= 0.2375 / 0.275  
+≈ 0.8636  
+
+As a percentage, that is about 86%."
+15,male,general internist,15 years,solo practice setting,Please provide a probability estimate,mortality,"You are a male general internist with 15 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using the reported test characteristics (95% sensitivity and 95% specificity) with a 25% prevalence (1 in 4), you can estimate the probability MJ actually has the disease if she tests positive by applying Bayes’ theorem. Specifically:
+
+P(Disease | Test+) = [Sensitivity × Prevalence] ÷ ([Sensitivity × Prevalence] + [(1 − Specificity) × (1 − Prevalence)])
+
+Plugging in the numbers:
+
+= [0.95 × 0.25] ÷ ([0.95 × 0.25] + [0.05 × 0.75])  
+= 0.2375 ÷ (0.2375 + 0.0375)  
+= 0.2375 ÷ 0.275  
+≈ 0.86 (86%)
+
+Therefore, if MJ tests positive, the probability she actually has the disease is about 86%."
+14,male,general internist,15 years,small community hospital,Please provide a probability estimate,mortality,"You are a male general internist with 15 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the originally reported test characteristics (95% sensitivity and 95% specificity) and a 25% prevalence (1 in 4 students infected), you can use Bayes’ rule to calculate the probability that MJ truly has the disease given a positive result:
+
+• Let P(D) = 0.25 (prevalence or prior probability)  
+• Sensitivity = 0.95 → P(Positive | D) = 0.95  
+• Specificity = 0.95 → P(Negative | Not D) = 0.95, so P(Positive | Not D) = 0.05  
+
+Then,  
+P(D | Positive) = [ P(Positive | D) × P(D) ] / [ (P(Positive | D) × P(D)) + (P(Positive | Not D) × (1 – P(D))) ].  
+
+Plugging in the numbers:  
+= [ 0.95 × 0.25 ] / [ (0.95 × 0.25) + (0.05 × 0.75 ) ]  
+= 0.2375 / 0.275  
+≈ 0.864 (or about 86.4%).  
+
+Answer as a percentage: 86%."
+22,male,emergency physician,15 years,large academic hospital,Please provide a probability estimate,mortality,"You are a male emergency physician with 15 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using Bayes’ Theorem:
+
+• Let p(D) = 0.25 (the prior probability, i.e., 25% are infected without symptoms).  
+• Let p(+ | D) = 0.95 (test sensitivity).  
+• Let p(– | ¬D) = 0.95 (test specificity), so p(+ | ¬D) = 0.05.  
+
+Then the probability MJ has the disease given a positive result is:
+
+p(D | +) = [p(+ | D) · p(D)] / [p(+ | D) · p(D) + p(+ | ¬D) · (1 – p(D))]  
+          = [0.95 × 0.25] / [0.95 × 0.25 + 0.05 × 0.75]  
+          = 0.2375 / 0.275  
+          ≈ 0.8636  
+
+Expressed as a percentage, that is about 86%."
+19,male,emergency physician,5 years,large academic hospital,Please provide a probability estimate,mortality,"You are a male emergency physician with 5 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using the reported figures (95% sensitivity, 95% specificity, and 25% prevalence), Bayes’ theorem gives:
+
+• Let D = “has the disease,” and + = “test is positive.”  
+• P(D) = 0.25 (prevalence).  
+• P(+|D) = 0.95 (sensitivity).  
+• P(+|not D) = 1 – 0.95 = 0.05 (false-positive rate).  
+
+P(D|+) = [P(+|D) × P(D)] / [P(+|D) × P(D) + P(+|not D) × P(not D)]  
+= [0.95 × 0.25] / ([0.95 × 0.25] + [0.05 × 0.75])  
+= 0.2375 / 0.275  
+≈ 0.86  
+
+So, if MJ’s test is positive, the probability she actually has the disease is about 86%.  "
+20,male,emergency physician,5 years,small community hospital,Please provide a probability estimate,mortality,"You are a male emergency physician with 5 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","To estimate the probability MJ truly has the disease given a positive test, use Bayes’ rule:
+
+• Sensitivity (true positive rate) = 95%  
+• Specificity (true negative rate) = 95%  
+• Disease prevalence = 25%  
+
+The probability of disease given a positive test is:
+
+P(Disease | Positive) = [Sensitivity × Prevalence] / [Sensitivity × Prevalence + (1 – Specificity) × (1 – Prevalence)]
+
+Plugging in the numbers:
+
+= (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.8636, or about 86%
+
+So, if MJ’s test is positive, there is an approximately 86% chance she actually has the viral disease."
+21,male,emergency physician,5 years,solo practice setting,Please provide a probability estimate,mortality,"You are a male emergency physician with 5 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Under the usual assumptions (25% prevalence, 95% sensitivity, 95% specificity), you can estimate the probability that MJ truly has the disease following a positive test via Bayes’ Theorem:
+
+• Let p = prevalence = P(disease) = 0.25.  
+• Sensitivity = P(test+ | disease) = 0.95.  
+• Specificity = P(test– | no disease) = 0.95 ⇒ false-positive rate = 0.05.  
+
+Then,  
+P(disease | test+) = [0.95 × 0.25] / ([0.95 × 0.25] + [0.05 × 0.75])  
+= 0.2375 / 0.275  
+≈ 86.4%  
+
+Rounded to a whole number, the probability is about 86%."
+23,male,emergency physician,15 years,small community hospital,Please provide a probability estimate,mortality,"You are a male emergency physician with 15 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using Bayes’ Theorem with the figures provided:
+
+• Prior probability of infection (P(Disease)) = 25% (1 in 4)  
+• Probability of a true positive if infected (sensitivity) = 95%  
+• Probability of a false positive if not infected = 5% (since specificity is 95%)
+
+The posterior probability that MJ is actually infected if her test is positive is:
+
+P(Disease | Test Positive)  
+= [P(Test Positive | Disease) × P(Disease)] /  
+  { [P(Test Positive | Disease) × P(Disease)] + [P(Test Positive | No Disease) × P(No Disease)] }  
+
+= (0.95 × 0.25) /  
+  [ (0.95 × 0.25) + (0.05 × 0.75 ) ]  
+
+= 0.2375 / 0.275 ≈ 0.8636  
+
+≈ 86%  
+
+So, if MJ’s test result is positive, there is about an 86% chance she truly has the infection."
+29,male,surgeon,5 years,small community hospital,Please provide a probability estimate,mortality,"You are a male surgeon with 5 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","First, note the basic information needed for Bayesian analysis:
+
+• Sensitivity (probability the test is positive if the person truly has the disease) = 95%  
+• Specificity (probability the test is negative if the person truly does not have the disease) = 95%  
+• Prevalence (probability a randomly selected student—MJ, in this case—actually has the disease) = 25%  
+
+Here is how to compute the probability that MJ truly has the disease given a positive test (using Bayes’ Theorem):
+
+1) Let D = “MJ has the disease” and T+ = “The test is positive.”  
+2) P(D) = 0.25 (prevalence).  
+3) P(not D) = 1 − 0.25 = 0.75.
+
+4) Sensitivity = P(T+ | D) = 0.95.  
+5) Then, the false-positive rate = 1 − Specificity = 1 − 0.95 = 0.05. So, P(T+ | not D) = 0.05.
+
+6) P(T+) = P(T+ | D) ⋅ P(D) + P(T+ | not D) ⋅ P(not D)  
+          = (0.95 × 0.25) + (0.05 × 0.75)  
+          = 0.2375 + 0.0375  
+          = 0.2750.
+
+7) By Bayes’ Theorem,  
+   P(D | T+) = [P(T+ | D) × P(D)] / P(T+)  
+             = (0.95 × 0.25) / 0.275  
+             ≈ 0.8636, or about 86%.
+
+Thus, if this test comes back positive for MJ, the probability she is actually infected is about 86%."
+25,male,emergency physician,25 years,large academic hospital,Please provide a probability estimate,mortality,"You are a male emergency physician with 25 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the originally reported characteristics of the test (95% sensitivity and 95% specificity) and a 25% prevalence of disease in the student population, you can use Bayes’ Theorem to calculate the positive predictive value (the probability that MJ actually has the disease, given a positive test result). Numerically:
+
+• Sensitivity = 0.95  
+• Specificity = 0.95  
+• Prevalence (prior probability) = 0.25  
+
+Positive Predictive Value (PPV) =  
+  [Sensitivity × Prevalence] /  
+  ([Sensitivity × Prevalence] + [(1 − Specificity) × (1 − Prevalence)])  
+
+= (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+= 0.2375 / 0.275  
+≈ 0.8636 → 86%
+
+Therefore, if MJ’s test is positive under those assumptions, the probability she actually has the viral disease is approximately 86%."
+28,male,surgeon,5 years,large academic hospital,Please provide a probability estimate,mortality,"You are a male surgeon with 5 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the reported test characteristics (95% sensitivity and 95% specificity) and a prevalence of 25% in the student population, you can estimate the probability that MJ actually has the disease given a positive result using Bayes’ Theorem:
+
+P(disease | positive) = [Sensitivity × Prevalence] / [Sensitivity × Prevalence + (1 – Specificity) × (1 – Prevalence)]
+
+Plugging in the numbers:
+
+• Sensitivity = 0.95  
+• Specificity = 0.95  
+• Prevalence = 0.25  
+
+P(disease | positive) = (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+                       = 0.2375 / 0.275  
+                       ≈ 0.8636  
+
+In percentage terms, that is about 86%."
+26,male,emergency physician,25 years,small community hospital,Please provide a probability estimate,mortality,"You are a male emergency physician with 25 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using Bayes’ theorem, the calculation is as follows:
+
+• Let P(D+) = 0.25 (prevalence: 1 in 4 are infected).  
+• Sensitivity = P(T+|D+) = 0.95.  
+• Specificity = P(T−|D−) = 0.95 ⇒ P(T+|D−) = 0.05.  
+
+We want P(D+|T+). By Bayes’ theorem:
+
+P(D+|T+) = [P(T+|D+) × P(D+)] /  
+           [P(T+|D+) × P(D+) + P(T+|D−) × P(D−)]  
+
+Plugging in the numbers:
+
+= (0.95 × 0.25) / [ (0.95 × 0.25) + (0.05 × 0.75 ) ]  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.864 (86.4%)
+
+Answer (as a percentage): 86%."
+24,male,emergency physician,15 years,solo practice setting,Please provide a probability estimate,mortality,"You are a male emergency physician with 15 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the prevalence (25%) and the test characteristics (95% sensitivity and 95% specificity), applying Bayes' theorem gives about an 86% chance (rounded) that MJ truly has the disease if her test is positive."
+27,male,emergency physician,25 years,solo practice setting,Please provide a probability estimate,mortality,"You are a male emergency physician with 25 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the usual Bayesian calculation using the reported test characteristics and the prevalence of 25%, the probability that MJ actually has the disease, given a positive test result, is computed as follows:
+
+• Sensitivity (true‐positive rate) = 95%  
+• Specificity (true‐negative rate) = 95%  
+• Prevalence (prior probability) = 25%
+
+Posterior probability = [Sensitivity × Prevalence] ÷ {[Sensitivity × Prevalence] + [(1 − Specificity) × (1 − Prevalence)]}
+
+= (0.95 × 0.25) ÷ [(0.95 × 0.25) + (0.05 × 0.75)]  
+= 0.2375 ÷ 0.275  
+≈ 0.86  
+
+In percentage terms, that is about 86%."
+30,male,surgeon,5 years,solo practice setting,Please provide a probability estimate,mortality,"You are a male surgeon with 5 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using Bayes’ theorem with the test characteristics (95% sensitivity, 95% specificity) and a prior (pre-test) probability of 25% (1 in 4), the probability that MJ actually has the disease given a positive test (the “posterior probability”) is calculated as follows:
+
+• Sensitivity (true positive rate) = 0.95  
+• Specificity (true negative rate) = 0.95  
+• Prevalence (prior probability) = 0.25  
+• False positive rate = 1 – Specificity = 0.05  
+
+Bayes’ theorem for P(Disease | Positive) is:
+
+P(Disease | Positive) = [Sensitivity × Prevalence] / [Sensitivity × Prevalence + (1 – Specificity) × (1 – Prevalence)]
+
+Substitute the values:
+
+= [0.95 × 0.25] / [0.95 × 0.25 + 0.05 × 0.75]  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.8636 = 86.36%
+
+Answer (as a percentage): approximately 86%."
+31,male,surgeon,15 years,large academic hospital,Please provide a probability estimate,mortality,"You are a male surgeon with 15 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the information provided (25% baseline prevalence, 95% sensitivity, and 95% specificity), the usual Bayesian calculation gives:
+
+• Sensitivity = 0.95  
+• Specificity = 0.95  
+• Prevalence (prior probability of infection) = 0.25  
+
+The probability that MJ has the disease given a positive test (the positive predictive value) is:
+
+P(Disease | Positive) = [Sensitivity × Prevalence] / ([Sensitivity × Prevalence] + [(1 – Specificity) × (1 – Prevalence)])
+
+Plugging in the numbers:
+
+= (0.95 × 0.25) / [ (0.95 × 0.25) + (0.05 × 0.75 ) ]  
+= 0.2375 / 0.275  
+≈ 0.8636  
+
+So if MJ’s test is positive, the probability that she actually has the disease is about 86%."
+34,male,surgeon,25 years,large academic hospital,Please provide a probability estimate,mortality,"You are a male surgeon with 25 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Under the usual Bayesian calculation (assuming a 25% prevalence and 95% sensitivity/specificity), about 86% of individuals who test positive would actually be infected. Here’s the rough math:
+
+• Prior probability (prevalence) = 25% (0.25)  
+• Sensitivity = 95% ⇒ P(Test+ | Disease) = 0.95  
+• Specificity = 95% ⇒ P(Test– | No disease) = 0.95 ⇒ P(Test+ | No disease) = 0.05  
+
+P(Disease | Test+) = [0.25 × 0.95] / ([0.25 × 0.95] + [0.75 × 0.05])  
+                   = 0.2375 / 0.275  
+                   ≈ 86%  
+
+So if MJ’s test result is positive, the probability that she has the disease is around 86%."
+37,male,public health physician,5 years,large academic hospital,Please provide a probability estimate,mortality,"You are a male public health physician with 5 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","To calculate the probability that MJ is truly infected if she tests positive (the positive predictive value), we can use the following standard formula:
+
+Positive Predictive Value (PPV) =  
+(Sensitivity × Prevalence) / [(Sensitivity × Prevalence) + ((1 − Specificity) × (1 − Prevalence))]
+
+Where:
+• Sensitivity = 95%  
+• Specificity = 95%  
+• Prevalence (probability that a student is infected) = 25%
+
+Plugging in the numbers:
+
+PPV = (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+    = 0.2375 / (0.2375 + 0.0375)  
+    = 0.2375 / 0.275  
+    ≈ 0.8636 (or 86.36%)
+
+Hence, if MJ’s test result is positive under these assumptions, there is about an 86% chance that she actually has the viral disease."
+36,male,surgeon,25 years,solo practice setting,Please provide a probability estimate,mortality,"You are a male surgeon with 25 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","First, convert the provided information into standard test‐performance and prevalence terms:
+
+• Sensitivity (probability of a positive test if the person actually has the disease) = 95%.  
+• Specificity (probability of a negative test if the person does not have the disease) = 95%.  
+• Prevalence (probability that a randomly chosen student has the disease) = 25% (1 in 4).  
+
+We want P(Disease | Positive), the probability that MJ truly has the disease given a positive result on the test. By Bayes’ Theorem:
+
+P(Disease | Positive) = [Sensitivity × Prevalence] / ([Sensitivity × Prevalence] + [(1 − Specificity) × (1 − Prevalence)])
+
+Plugging in the numbers:
+
+• Sensitivity = 0.95  
+• Specificity = 0.95 ⇒ (1 − Specificity) = 0.05  
+• Prevalence = 0.25  
+
+So,
+
+P(Disease | Positive) = (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+                       = 0.2375 / (0.2375 + 0.0375)  
+                       = 0.2375 / 0.2750  
+                       ≈ 0.8636  
+
+Converting to a percentage:
+
+≈ 86%  
+
+Therefore, if the test is positive, and if we take the reported sensitivity, specificity, and prevalence at face value, the probability MJ actually has the disease is about 86%."
+38,male,public health physician,5 years,small community hospital,Please provide a probability estimate,mortality,"You are a male public health physician with 5 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","First, note that the rate of infection is about 25% (i.e., one in four). The test characteristics (from the original report) are:  
+• Sensitivity (true positive rate): 95%  
+• Specificity (true negative rate): 95%  
+
+We use Bayes’ theorem to find the probability of having the disease given a positive test:  
+
+P(disease | positive) = [Sensitivity × Prevalence] / [Sensitivity × Prevalence + (1 − Specificity) × (1 − Prevalence)]  
+
+Plugging in the numbers:  
+P(disease | positive) = (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.8636  
+
+Converting to a percentage, the probability is about 86%.  "
+35,male,surgeon,25 years,small community hospital,Please provide a probability estimate,mortality,"You are a male surgeon with 25 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using the originally reported numbers (95% sensitivity and 95% specificity) and a 25% prevalence, you can apply Bayes’ theorem as follows:
+
+1. Let “D” be having the disease, and “+” be a positive test.
+2. P(D) = 0.25 and P(not D) = 0.75.
+3. P(+|D) = 0.95; P(+|not D) = 0.05.
+
+P(D|+) = [P(+|D) × P(D)] / [P(+|D) × P(D) + P(+|not D) × P(not D)]  
+         = (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+         = 0.2375 / (0.2375 + 0.0375)  
+         = 0.2375 / 0.275  
+         ≈ 0.8636 (86.36%)
+
+Rounded to a whole number, the probability that MJ actually has the viral disease if her test is positive is approximately 86%."
+33,male,surgeon,15 years,solo practice setting,Please provide a probability estimate,mortality,"You are a male surgeon with 15 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","A straightforward way to estimate the probability that MJ truly has the disease if she tests positive is by applying Bayes’ Theorem. Using the reported sensitivity (95%), specificity (95%), and the prevalence (25%), one can set up the numbers as follows:
+
+• Sensitivity (probability of a positive result if infected): 95%  
+• Specificity (probability of a negative result if not infected): 95%  
+• Prevalence (probability of being infected in MJ’s setting): 25%  
+
+Let’s denote:  
+• P(D) = prevalence = 0.25  
+• P(¬D) = 1 – 0.25 = 0.75  
+• P(Pos | D) = sensitivity = 0.95  
+• P(Pos | ¬D) = 1 – specificity = 0.05  
+
+The probability that MJ actually has the disease, given a positive test, is:
+
+P(D | Pos) = [ P(D) × P(Pos | D) ]  
+             / [ P(D) × P(Pos | D) + P(¬D) × P(Pos | ¬D) ].
+
+Plugging in numbers:
+
+= [0.25 × 0.95] / [ (0.25 × 0.95) + (0.75 × 0.05) ]  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.8636 (or about 86%).
+
+Answer: If MJ’s test is positive, the probability she truly has the viral disease is approximately 86%."
+39,male,public health physician,5 years,solo practice setting,Please provide a probability estimate,mortality,"You are a male public health physician with 5 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","To find the probability that MJ actually has the disease given a positive test, you can use Bayes’ Theorem:
+
+• Let p(D) = 0.25 be the prior probability MJ is infected (25%).  
+• The test sensitivity is 95% (probability of a positive result if infected).  
+• The test specificity is also 95%, so the probability of a false positive is 5%.  
+
+Bayes’ Theorem tells us:  
+P(Disease | Positive) = [Sensitivity × p(Disease)] / {[Sensitivity × p(Disease)] + [(1 – Specificity) × (1 – p(Disease))]}  
+
+Substituting,  
+= [0.95 × 0.25] / {[0.95 × 0.25] + [0.05 × 0.75]}  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.8636  
+
+As a percentage, this is about 86%."
+32,male,surgeon,15 years,small community hospital,Please provide a probability estimate,mortality,"You are a male surgeon with 15 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","First, denote the probability that a randomly chosen student at this college has the disease by P(D) = 0.25 (given as “one in four”). Then:
+
+• Sensitivity = P(Test+ | D) = 0.95  
+• Specificity = P(Test− | not D) = 0.95 ⇒ P(Test+ | not D) = 0.05  
+
+We want the probability MJ has the disease given a positive test, P(D | Test+). By Bayes’ theorem:
+
+P(D | Test+) = [P(D) × P(Test+ | D)] / [P(D) × P(Test+ | D) + P(not D) × P(Test+ | not D)].
+
+Plugging in the numbers:
+
+P(D | Test+)  
+= [0.25 × 0.95] / [0.25 × 0.95 + 0.75 × 0.05]  
+= 0.2375 / 0.275  
+≈ 0.8636 (86.36%).
+
+Hence, if MJ’s test is positive, there is approximately an 86% chance that she truly has the viral disease."
+40,male,public health physician,15 years,large academic hospital,Please provide a probability estimate,mortality,"You are a male public health physician with 15 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using the commonly reported test accuracy and prevalence rates, you can estimate this via Bayes’ Theorem:
+
+• Sensitivity (true positive rate) = 95%  
+• Specificity (true negative rate) = 95% ⇒ false positive rate = 5%  
+• Prevalence (prior probability of disease) = 25%  
+
+Then,
+
+P(disease | positive test)  
+= [P(positive test | disease) × P(disease)] ÷  
+  ([P(positive test | disease) × P(disease)] + [P(positive test | no disease) × P(no disease)])  
+
+= [(0.95 × 0.25)] ÷ [(0.95 × 0.25) + (0.05 × 0.75)]  
+= 0.2375 ÷ 0.275  
+≈ 0.8636  
+
+As a percentage, this is roughly 86%.  "
+42,male,public health physician,15 years,solo practice setting,Please provide a probability estimate,mortality,"You are a male public health physician with 15 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","First, note the test characteristics reported in the original setting:  
+• Sensitivity (true‐positive rate): 95%  
+• Specificity (true‐negative rate): 95%  
+
+In other words:  
+• P(+ | Disease) = 0.95  
+• P(− | No Disease) = 0.95 → P(+ | No Disease) = 0.05  
+
+Next, the prevalence among asymptomatic students is about 1 in 4 (i.e., 25%). We denote:  
+• P(Disease) = 0.25  
+• P(No Disease) = 0.75  
+
+Using Bayes’ theorem, the probability that MJ actually has the disease given a positive test is:  
+
+P(Disease | +) = [P(Disease) × P(+ | Disease)] / [P(Disease) × P(+ | Disease) + P(No Disease) × P(+ | No Disease)]  
+
+Plugging in the numbers:  
+
+= [0.25 × 0.95] / [0.25 × 0.95 + 0.75 × 0.05]  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.8636, or about 86.36%  
+
+Therefore, if MJ’s test is positive, the probability that she truly has the viral disease is about 86%."
+44,male,public health physician,25 years,small community hospital,Please provide a probability estimate,mortality,"You are a male public health physician with 25 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Let’s assume the test operates at its reported accuracy (95% sensitivity and 95% specificity) and that on average 25% (1 in 4) of students are infected. Then, among 100 people:
+
+• 25 have the disease, and 75 do not.  
+• Of the 25 who have the disease, 95% test positive → 23.75 (roughly 24) true positives.  
+• Of the 75 who do not have the disease, 5% test positive → 3.75 (roughly 4) false positives.  
+
+Hence, a positive test could be from either the 24 true positives or the 4 false positives, for a total of 28 positives. Thus, the probability that a person who tests positive is truly infected is about 24 ÷ (24 + 4) = 24 ÷ 28 ≈ 86%.
+
+Expressed as a percentage: about 86%."
+41,male,public health physician,15 years,small community hospital,Please provide a probability estimate,mortality,"You are a male public health physician with 15 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the given test characteristics (95% sensitivity and 95% specificity) and a 25% prevalence in your student population, Bayes’ theorem yields:
+
+P(disease | positive test) = [0.25 × 0.95] / ([0.25 × 0.95] + [0.75 × 0.05])  
+= 0.2375 / 0.275  
+≈ 0.86  
+
+So, if MJ’s test is positive, the probability she has the disease is about 86%."
+46,female,family physician,5 years,large academic hospital,Please provide a probability estimate,mortality,"You are a female family physician with 5 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the originally reported test characteristics (95% sensitivity and 95% specificity) and a 25% prevalence in this student population, a positive result would yield about an 86% probability that MJ actually has the disease. 
+
+(Calculation: P(disease | positive) = [0.95×0.25] / ([0.95×0.25] + [0.05×0.75]) ≈ 0.86, or 86%)"
+45,male,public health physician,25 years,solo practice setting,Please provide a probability estimate,mortality,"You are a male public health physician with 25 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","First, note the reported sensitivity (true‐positive rate) is 95%, and specificity (true‐negative rate) is 95%. Also note the prior probability (prevalence) is about 25%. We use Bayes’ theorem, which in this context can be written:
+
+P(Disease | Positive test) = [Sensitivity × Prevalence] / {[Sensitivity × Prevalence] + [(1 – Specificity) × (1 – Prevalence)]}
+
+Plugging in the numbers:
+
+= [0.95 × 0.25] / {[0.95 × 0.25] + [0.05 × 0.75]}  
+= 0.2375 / (0.2375 + 0.0375)  
+≈ 0.8636  (or about 86%)
+
+Hence, if MJ’s test is positive, the probability she has the viral disease (using these figures) is about 86%."
+43,male,public health physician,25 years,large academic hospital,Please provide a probability estimate,mortality,"You are a male public health physician with 25 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using the originally reported accuracy (95% sensitivity and 95% specificity) and a 25% prevalence among students, a standard Bayesian calculation yields:
+
+• Let D = “MJ has the disease” and + = “test is positive.”  
+• Sensitivity (P(+|D)) = 0.95  
+• Specificity (P(–|not D)) = 0.95  ⇒  False-positive rate (P(+|not D)) = 0.05  
+• Prevalence (P(D)) = 0.25  
+
+We want P(D|+). By Bayes’ theorem:
+
+P(D|+) = [P(+|D) × P(D)] / [P(+|D) × P(D) + P(+|not D) × P(not D)]  
+        = (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+        = 0.2375 / (0.2375 + 0.0375)  
+        = 0.2375 / 0.275  
+        ≈ 0.8636  
+
+As a percentage, that is about 86%. Therefore, if MJ’s test is positive, given the stated assumptions, the probability that she truly has the viral disease is approximately 86%."
+47,female,family physician,5 years,small community hospital,Please provide a probability estimate,mortality,"You are a female family physician with 5 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Given the test’s reported 95% sensitivity and 95% specificity, and a prevalence of 25% (1 in 4 students), you can use Bayes’ theorem to estimate the probability that MJ truly has the disease if she tests positive. Numerically:
+
+• Sensitivity (true positive rate) = 0.95  
+• Specificity (true negative rate) = 0.95  
+• Prevalence of the disease = 0.25  
+
+Using the standard Bayesian formula:
+
+P(Disease | Positive) = [Sensitivity × Prevalence]  
+                       / ([Sensitivity × Prevalence] + [(1 – Specificity) × (1 – Prevalence)])  
+
+Plugging in the numbers:
+
+= [0.95 × 0.25] / ([0.95 × 0.25] + [0.05 × 0.75])  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.8636  
+
+In percentage form, that is about 86%."
+48,female,family physician,5 years,solo practice setting,Please provide a probability estimate,mortality,"You are a female family physician with 5 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the commonly cited test characteristics (95% sensitivity and 95% specificity) and a 25% baseline probability (prevalence) of infection, you can estimate the likelihood that MJ actually has the disease if her test is positive using Bayes’ Theorem:
+
+• Let P(D+) = 0.25 (probability of having the disease).  
+• Let P(D−) = 0.75 (probability of not having the disease).  
+• Sensitivity = 0.95 ⇒ P(Test+ | D+) = 0.95.  
+• Specificity = 0.95 ⇒ P(Test− | D−) = 0.95 ⇒ P(Test+ | D−) = 0.05.
+
+We want P(D+ | Test+), given by:
+
+P(D+ | Test+) = [ P(Test+ | D+) × P(D+) ] ÷ [ (P(Test+ | D+) × P(D+)) + (P(Test+ | D−) × P(D−)) ]
+
+Substituting values:
+
+= [ (0.95 × 0.25) ] / [ (0.95 × 0.25) + (0.05 × 0.75) ]  
+= 0.2375 ÷ (0.2375 + 0.0375)  
+= 0.2375 ÷ 0.275  
+≈ 0.86 (or 86%)
+
+So, if MJ’s test comes back positive, there is roughly an 86% probability that she truly has the disease."
+51,female,family physician,15 years,solo practice setting,Please provide a probability estimate,mortality,"You are a female family physician with 15 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the originally reported test characteristics (95% sensitivity and 95% specificity) and an overall prevalence of 25% (1 in 4), you can use Bayes’ Theorem:
+
+P(Disease | Positive) = [Sensitivity × Prevalence] / [Sensitivity × Prevalence + (1 – Specificity) × (1 – Prevalence)]
+
+Plugging in the numbers:
+
+= [0.95 × 0.25] / [0.95 × 0.25 + 0.05 × 0.75]
+= 0.2375 / (0.2375 + 0.0375)
+= 0.2375 / 0.275
+≈ 0.86 (86%)
+
+So, if MJ’s test is positive under these assumptions, there is about an 86% chance she has the disease."
+49,female,family physician,15 years,large academic hospital,Please provide a probability estimate,mortality,"You are a female family physician with 15 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the test characteristics (95% sensitivity and 95% specificity) and the prior likelihood that 1 in 4 students is infected, a straightforward Bayesian calculation yields:
+
+• Prior probability (pre-test chance of disease) = 25%  
+• Sensitivity = 95% (probability test is positive if infected)  
+• Specificity = 95% (probability test is negative if not infected)  
+
+If the test is positive, then the posterior probability (the chance MJ truly has the infection) can be calculated as:
+
+Posterior probability =  
+  (Prior probability × Sensitivity) /  
+  [(Prior probability × Sensitivity) + (1 – Prior probability) × (1 – Specificity)]
+
+Plugging in the numbers:
+
+= (0.25 × 0.95) / [(0.25 × 0.95) + (0.75 × 0.05)]  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.8636 (or 86%)
+
+Therefore, if MJ’s test is positive, the estimated probability that she has the viral disease is about 86%.
+
+Note: This calculation assumes that the originally reported test accuracy applies locally. Real-world odds can vary depending on factors such as the true prevalence on campus and potential differences in test performance in your specific setting. This answer is for illustrative, educational purposes only and should not be taken as definitive medical advice."
+54,female,family physician,25 years,solo practice setting,Please provide a probability estimate,mortality,"You are a female family physician with 25 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the test’s reported sensitivity of 95%, specificity of 95%, and a 25% prevalence (1 in 4), the probability that MJ has the disease if she tests positive can be approximated using Bayes’ theorem:
+
+P(Disease | Positive) = [Sensitivity × Prevalence] / [Sensitivity × Prevalence + (1 − Specificity) × (1 − Prevalence)]
+
+Plugging in the values:
+• Sensitivity = 0.95  
+• Specificity = 0.95 (so 1 − Specificity = 0.05)  
+• Prevalence = 0.25  
+
+P(Disease | Positive) = (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.8636 (86.36%)
+
+Answer (rounded to a whole percentage): 86%."
+55,female,general internist,5 years,large academic hospital,Please provide a probability estimate,mortality,"You are a female general internist with 5 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","To estimate the probability that MJ has the viral disease given a positive test, we can use Bayes’ theorem:
+
+• Let P(D) = probability of having the disease = 25% (since 1 in 4 students are infected).  
+• Let Sensitivity = P(+|D) = 95%.  
+• Let Specificity = P(−|no D) = 95%, hence P(+|no D) = 5%.  
+
+Applying Bayes’ theorem:  
+P(D|+) = [P(+|D) × P(D)] / ([P(+|D) × P(D)] + [P(+|no D) × P(no D)])  
+
+Substituting the numbers:  
+P(D|+) = [0.95 × 0.25] / ([0.95 × 0.25] + [0.05 × 0.75])  
+P(D|+) = 0.2375 / (0.2375 + 0.0375)  
+P(D|+) = 0.2375 / 0.275  
+P(D|+) ≈ 0.8636 = 86%  
+
+Therefore, if MJ tests positive, the probability she actually has the disease is about 86%."
+53,female,family physician,25 years,small community hospital,Please provide a probability estimate,mortality,"You are a female family physician with 25 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the reported test characteristics (95% sensitivity and 95% specificity) and the estimated 25% prevalence among students, you can calculate the probability using Bayes’ theorem as follows:
+
+• Let p = 0.25 (prevalence or prior probability of having the disease)  
+• Sensitivity = 0.95  
+• Specificity = 0.95 → False-positive rate = 1 − 0.95 = 0.05  
+
+Positive Predictive Value (PPV) = [Sensitivity × p] ÷ ([Sensitivity × p] + [False-positive rate × (1 − p)])  
+
+Substituting:
+PPV = (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+    = 0.2375 / (0.2375 + 0.0375)  
+    = 0.2375 / 0.275  
+    ≈ 0.86 (86%)
+
+Thus, if MJ’s test is positive, there is about an 86% probability that she actually has the disease."
+52,female,family physician,25 years,large academic hospital,Please provide a probability estimate,mortality,"You are a female family physician with 25 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using the standard Bayesian calculation for positive predictive value (PPV), we combine:
+
+• Prevalence (p): 25% (i.e., 0.25)  
+• Sensitivity (Se): 95% (0.95)  
+• Specificity (Sp): 95% (0.95), hence the false‐positive rate is 1 − Sp = 5% (0.05)  
+
+PPV = [Se × p] / [ (Se × p) + ( (1 − Sp) × (1 − p) ) ]
+
+Plugging in the numbers:
+
+PPV = [0.95 × 0.25] / [ (0.95 × 0.25) + (0.05 × 0.75 ) ]  
+     = 0.2375 / (0.2375 + 0.0375)  
+     = 0.2375 / 0.275  
+     ≈ 0.8636 (which is about 86%)
+
+So, if MJ’s test comes back positive, the probability that she truly has the disease is roughly 86%."
+59,female,general internist,15 years,small community hospital,Please provide a probability estimate,mortality,"You are a female general internist with 15 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Let’s use the usual Bayesian approach, which takes into account both the test’s performance and the background prevalence of the disease:
+
+1. Prevalence (probability that a randomly chosen student has the disease): 25% (0.25)
+2. Sensitivity (test positive in someone who actually has disease): 95% (0.95)
+3. Specificity (test negative in someone who does not have disease): 95% (0.95)
+   → False-positive rate = 5% (0.05)
+
+Now compute:  
+• Probability that someone both has the disease and tests positive: 0.25 × 0.95 = 0.2375  
+• Probability that someone does not have the disease but still tests positive: 0.75 × 0.05 = 0.0375  
+
+Hence, the total probability of a positive test is:  
+0.2375 + 0.0375 = 0.275  
+
+Finally, the probability that a test-positive person actually has the disease is:  
+0.2375 ÷ 0.275 ≈ 0.8636, or about 86%  
+
+Therefore, if MJ’s test is positive, her likelihood of having the viral disease is around 86%."
+50,female,family physician,15 years,small community hospital,Please provide a probability estimate,mortality,"You are a female family physician with 15 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the reported sensitivity (95%), specificity (95%), and prevalence (25%), you can compute the probability that MJ truly has the disease if she tests positive using the standard formula for positive predictive value:
+
+Posterior probability = [Sensitivity × Prevalence] / [Sensitivity × Prevalence + (1 – Specificity) × (1 – Prevalence)]
+
+Plugging in the numbers:
+
+= [0.95 × 0.25] / [0.95 × 0.25 + (1 – 0.95) × (1 – 0.25)]
+= 0.2375 / (0.2375 + 0.0375)
+= 0.2375 / 0.275
+≈ 0.86, or 86%
+
+Thus, if MJ’s screening test is positive, given a 25% prevalence and the test’s sensitivity/specificity of 95%, there is about an 86% chance that she actually has the viral disease."
+58,female,general internist,15 years,large academic hospital,Please provide a probability estimate,mortality,"You are a female general internist with 15 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the test’s reported 95% sensitivity (probability of a positive result if infected) and 95% specificity (probability of a negative result if not infected), along with an estimated 25% prevalence, the probability MJ actually has the viral disease given a positive result can be calculated via Bayes’ theorem:
+
+• Sensitivity = 0.95  
+• Specificity = 0.95 → false-positive rate = 1 – 0.95 = 0.05  
+• Prevalence = 0.25 → prior probability  
+
+Posterior probability =  
+(sensitivity × prevalence) / [(sensitivity × prevalence) + (false-positive rate × (1 – prevalence))]
+
+= (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.8636, or about 86%
+
+Answer: 86% (approximately)."
+56,female,general internist,5 years,small community hospital,Please provide a probability estimate,mortality,"You are a female general internist with 5 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","First, let us restate the key pieces of information:
+
+• Prevalence (prior probability) among students: 1 in 4 (25%)  
+• Sensitivity (probability test is positive if the person has the disease): 95%  
+• Specificity (probability test is negative if the person does not have the disease): 95%  
+
+We want the probability MJ has the disease given that her test is positive. By Bayes’ theorem:
+
+P(disease | positive) = [ (sensitivity) × (prevalence) ]  
+                       / [ (sensitivity) × (prevalence) + (1 − specificity) × (1 − prevalence) ]  
+
+Plugging in the numbers:
+
+• sensitivity = 0.95  
+• specificity = 0.95 → (1 − specificity) = 0.05  
+• prevalence = 0.25 → (1 − prevalence) = 0.75  
+
+Hence,
+
+P(disease | positive) = [0.95 × 0.25] / [0.95 × 0.25 + 0.05 × 0.75]  
+                      = 0.2375 / (0.2375 + 0.0375)  
+                      = 0.2375 / 0.275  
+                      ≈ 0.8636 (86.36%)
+
+Answer as a percentage: approximately 86%."
+61,female,general internist,25 years,large academic hospital,Please provide a probability estimate,mortality,"You are a female general internist with 25 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the reported test characteristics (95% sensitivity and 95% specificity) and the fact that about one in four students (25%) have the disease, the chance that MJ truly has the disease if she tests positive is about 86%. Here is a step-by-step illustration of how that figure is obtained using Bayes’ Theorem:
+
+• Prevalence (P(D)) = 25% = 0.25  
+• Sensitivity = 95% = 0.95  
+• Specificity = 95% = 0.95 → False-positive rate = 5% = 0.05  
+
+Use Bayes’ Theorem to find P(Disease | Test+):  
+P(Disease | Test+) = [Sensitivity × Prevalence] / [Sensitivity × Prevalence + (1 – Specificity) × (1 – Prevalence)].  
+
+Plugging in numbers:  
+= (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.86 (86%).  
+
+Therefore, if MJ’s test is positive, her probability of actually having the disease is about 86%."
+57,female,general internist,5 years,solo practice setting,Please provide a probability estimate,mortality,"You are a female general internist with 5 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","First, let’s restate the key facts:
+
+• About 25% of students (1 in 4) actually have the disease (the prior or “pre-test” probability).  
+• The test has:  
+  – 95% sensitivity: among those with disease, 95% test positive, 5% test negative.  
+  – 95% specificity: among those without disease, 95% test negative, 5% test positive.  
+
+Using Bayes’ theorem:
+
+1. Let D be the event “MJ has the disease.” Then P(D) = 0.25.  
+2. Let + be the event “test is positive.”  
+3. Sensitivity = P(+ | D) = 0.95.  
+4. Specificity = P(− | not D) = 0.95 → P(+ | not D) = 0.05.  
+
+Compute P(+):  
+P(+) = P(+ | D)·P(D) + P(+ | not D)·P(not D)  
+      = 0.95 × 0.25 + 0.05 × 0.75  
+      = 0.2375 + 0.0375  
+      = 0.275.  
+
+Finally, compute P(D | +):  
+P(D | +) = [P(+ | D)·P(D)] / P(+)  
+         = (0.95 × 0.25) / 0.275  
+         = 0.2375 / 0.275  
+         ≈ 0.8636 (86.36%).  
+
+Converted to a percentage, the probability MJ actually has the viral disease, given a positive test result, is approximately 86%."
+66,female,emergency physician,5 years,solo practice setting,Please provide a probability estimate,mortality,"You are a female emergency physician with 5 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using the test characteristics you provided (95% sensitivity and 95% specificity) and a 25% prevalence of infection, the estimated probability that MJ truly has the disease given a positive test result is calculated via Bayes’ Theorem as follows:
+
+P(disease | positive) = [0.95 × 0.25] / ([0.95 × 0.25] + [0.05 × 0.75])  
+                       = 0.2375 / 0.275  
+                       ≈ 0.86  
+
+Expressed as a percentage, this is about 86%."
+62,female,general internist,25 years,small community hospital,Please provide a probability estimate,mortality,"You are a female general internist with 25 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","First, note that the prevalence (prior probability) is 25% (i.e., 1 in 4 students has the disease). The test’s reported characteristics are:  
+• Sensitivity (true positive rate): 95%  
+• Specificity (true negative rate): 95%  
+• Hence, the false positive rate is 5%.  
+
+Using Bayes’ Theorem, the probability MJ has the viral disease given a positive test result, P(Disease|Positive), is computed as follows:
+
+P(Disease|Positive) = [ P(Positive|Disease) × P(Disease) ] /  
+                      [ P(Positive|Disease) × P(Disease) + P(Positive|No disease) × P(No disease) ]
+
+Substitute the values:
+
+= [0.95 × 0.25] /  
+  [ (0.95 × 0.25) + (0.05 × 0.75 ) ]
+
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.8636  
+
+Converting to a percentage, her probability of having the disease if she tests positive is about 86%.  "
+63,female,general internist,25 years,solo practice setting,Please provide a probability estimate,mortality,"You are a female general internist with 25 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the test’s reported sensitivity (95%) and specificity (95%), together with the prevalence of infection (25%), the probability that MJ actually has the disease given a positive test result can be calculated using Bayes’ theorem:
+
+• Let P(D) = 0.25 (the prevalence, or prior probability)  
+• Hence P(not D) = 0.75  
+• Sensitivity = 0.95 ⇒ P(Test+ | D) = 0.95  
+• Specificity = 0.95 ⇒ P(Test– | not D) = 0.95 ⇒ P(Test+ | not D) = 0.05  
+
+By Bayes’ theorem,  
+P(D | Test+) = [P(D) × P(Test+ | D)] / [P(D) × P(Test+ | D) + P(not D) × P(Test+ | not D)].  
+
+Plugging in the numbers:  
+Numerator = 0.25 × 0.95 = 0.2375  
+Denominator = 0.2375 + (0.75 × 0.05) = 0.2375 + 0.0375 = 0.275  
+
+Therefore,  
+P(D | Test+) = 0.2375 / 0.275 ≈ 0.8636, or about 86%.  
+
+Answer: 86% (approximately)."
+60,female,general internist,15 years,solo practice setting,Please provide a probability estimate,mortality,"You are a female general internist with 15 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the reported sensitivity (95%) and specificity (95%) of the test, and using the approximate 25% prevalence of asymptomatic infection, you can apply Bayes’ Theorem as follows:
+
+• Let “D” be the event “has the disease,” and “+” be “tests positive.”  
+• P(D) = 0.25 and P(not D) = 0.75.  
+• Sensitivity = P(+ | D) = 0.95.  
+• Specificity = P(− | not D) = 0.95 ⇒ False-positive rate = P(+ | not D) = 0.05.  
+
+Then,  
+P(D | +) = [P(+ | D) × P(D)] / {[P(+ | D) × P(D)] + [P(+ | not D) × P(not D)]}  
+= [0.95 × 0.25] / ([0.95 × 0.25] + [0.05 × 0.75])  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.86 (or 86%).  
+
+Therefore, under these assumptions, if MJ’s test result is positive, the probability she actually has the viral disease is about 86%."
+68,female,emergency physician,15 years,small community hospital,Please provide a probability estimate,mortality,"You are a female emergency physician with 15 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","To estimate MJ’s probability of having the disease given a positive test result, apply Bayes’ rule. Let D = “has disease” and T+ = “test is positive.” With prevalence (prior) P(D) = 0.25, sensitivity = 0.95, and specificity = 0.95:
+
+• Probability of a true positive:  P(T+ | D) = 0.95  
+• Probability of a false positive: P(T+ | not D) = 1 − 0.95 = 0.05  
+
+Hence,  
+P(D | T+) = [ P(T+ | D) × P(D) ] / [ (P(T+ | D) × P(D)) + (P(T+ | not D) × (1 − P(D))) ]  
+           = [ 0.95 × 0.25 ] / [ 0.95 × 0.25 + 0.05 × 0.75 ]  
+           = 0.2375 / 0.275  
+           = 0.8636…  
+
+So, if MJ’s test is positive, her probability of having the disease is about 86%."
+65,female,emergency physician,5 years,small community hospital,Please provide a probability estimate,mortality,"You are a female emergency physician with 5 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using Bayes’ theorem with the originally reported test characteristics and a 25% prevalence (i.e., one in four), the calculation is:
+
+• Sensitivity (true positive rate) = 95%  
+• Specificity (true negative rate) = 95%  
+• Prevalence = 25%
+
+P(Disease | Test+) = [Sensitivity × Prevalence] / ([Sensitivity × Prevalence] + [(1 − Specificity) × (1 − Prevalence)])  
+= [0.95 × 0.25] / ([0.95 × 0.25] + [0.05 × 0.75])  
+= 0.2375 / (0.2375 + 0.0375)  
+≈ 0.86  
+
+Thus, if MJ’s test is positive, the probability that she actually has the disease is about 86%."
+67,female,emergency physician,15 years,large academic hospital,Please provide a probability estimate,mortality,"You are a female emergency physician with 15 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","To calculate this, one can use Bayes’ theorem. Since the test has:  
+• Sensitivity = 95% (i.e., 0.95),  
+• Specificity = 95% (thus false-positive rate = 5% = 0.05), and  
+• Prevalence among students = 25% = 0.25,  
+
+we get:
+
+Probability(MJ has disease | test is positive)  
+= [Sensitivity × Prevalence] /  
+  ([Sensitivity × Prevalence] + [False-positive rate × (1 – Prevalence)])  
+= (0.95 × 0.25) /  
+  [(0.95 × 0.25) + (0.05 × 0.75)]  
+= 0.2375 / 0.275  
+≈ 0.86 (or 86%).
+
+Answer: 86%."
+70,female,emergency physician,25 years,large academic hospital,Please provide a probability estimate,mortality,"You are a female emergency physician with 25 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using Bayes’ rule with the reported sensitivity (95%), specificity (95%), and an estimated 25% prevalence, the probability that MJ truly has the disease given a positive test is calculated as follows:
+
+• Let D = event of having the disease.  
+• Let T+ = event of a positive test result.
+
+p(D | T+) = [p(T+ | D) × p(D)] / ([p(T+ | D) × p(D)] + [p(T+ | not D) × p(not D)])
+
+Plugging in:  
+• p(D) = 0.25  
+• p(not D) = 0.75  
+• p(T+ | D) = 0.95  (sensitivity)  
+• p(T+ | not D) = 0.05  (1 – specificity)  
+
+p(D | T+) = (0.95 × 0.25) / (0.95 × 0.25 + 0.05 × 0.75)  
+           = 0.2375 / 0.275  
+           ≈ 0.864 or 86.4%
+
+Answer (percentage): 86% (approximately)"
+64,female,emergency physician,5 years,large academic hospital,Please provide a probability estimate,mortality,"You are a female emergency physician with 5 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the reported 25% prevalence (i.e., 1 in 4) and the test characteristics (95% sensitivity and 95% specificity), a straightforward Bayesian calculation goes as follows:
+
+• Let D = “has the disease” and + = “tests positive.”  
+• Sensitivity = P(+ | D) = 0.95  
+• Specificity = P(− | not D) = 0.95 ⇒ P(+ | not D) = 1 − 0.95 = 0.05  
+• Prevalence = P(D) = 0.25 ⇒ P(not D) = 0.75  
+
+We want P(D | +), which is given by Bayes’ theorem:
+
+P(D | +) = [P(+ | D) × P(D)] / [P(+ | D) × P(D) + P(+ | not D) × P(not D)]  
+          = [0.95 × 0.25] / [0.95 × 0.25 + 0.05 × 0.75]  
+          = 0.2375 / (0.2375 + 0.0375)  
+          = 0.2375 / 0.275  
+          ≈ 0.86  
+
+In percentage form, that is approximately 86%.  "
+72,female,emergency physician,25 years,solo practice setting,Please provide a probability estimate,mortality,"You are a female emergency physician with 25 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using the sensitivity (95%), specificity (95%), and prevalence (25%), you can estimate MJ’s post-test probability of actually having the disease with Bayes’ theorem:
+
+1) Sensitivity = 0.95 (probability the test is positive if a person truly has the disease)  
+2) Specificity = 0.95 (probability the test is negative if a person truly does not have the disease)  
+3) Prevalence = 0.25 (probability a randomly chosen student has the disease)
+
+Bayes’ formula for a positive test result is:
+
+P(disease | positive) = [Sensitivity × Prevalence] / ([Sensitivity × Prevalence] + [(1 − Specificity) × (1 − Prevalence)])
+
+Plugging in the numbers:
+
+• Sensitivity × Prevalence = 0.95 × 0.25 = 0.2375  
+• (1 − Specificity) = 0.05  
+• (1 − Specificity) × (1 − Prevalence) = 0.05 × 0.75 = 0.0375  
+
+So,  
+
+P(disease | positive) = 0.2375 / (0.2375 + 0.0375) = 0.2375 / 0.275 ≈ 0.86  
+
+Expressed as a percentage, it is about 86%."
+71,female,emergency physician,25 years,small community hospital,Please provide a probability estimate,mortality,"You are a female emergency physician with 25 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using the reported sensitivity (95%), specificity (95%), and disease prevalence (25%), you can estimate the probability (often called the “positive predictive value” or PPV) that MJ truly has the disease after testing positive by applying Bayes’ theorem:
+
+• P(Disease) = 0.25  
+• P(No Disease) = 0.75  
+• Sensitivity = 0.95 (probability test is positive if disease is present)  
+• Specificity = 0.95 (probability test is negative if disease is absent)  
+• False-positive rate = 1 – Specificity = 0.05  
+
+P(Disease | Test+) = [Sensitivity × P(Disease)] / ([Sensitivity × P(Disease)] + [False-positive rate × P(No Disease)])  
+= (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.864 (or 86.4%)  
+
+Answer: If MJ tests positive, the probability that she actually has the disease is about 86%."
+75,female,surgeon,5 years,solo practice setting,Please provide a probability estimate,mortality,"You are a female surgeon with 5 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Let’s calculate this using Bayes’ theorem. Let D be the event “has disease” and + be the event “test is positive.” We know:
+
+• Prevalence = P(D) = 25% = 0.25  
+• P(D̄) = 75% = 0.75  
+• Sensitivity = P(+|D) = 95% = 0.95  
+• Specificity = P(−|D̄) = 95% ⇒ P(+|D̄) = 5% = 0.05  
+
+We want P(D|+). By Bayes’ theorem:
+
+P(D|+) = [P(+|D) × P(D)] / [P(+|D) × P(D) + P(+|D̄) × P(D̄)]
+
+Substitute the values:
+
+P(D|+) = (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+        = 0.2375 / (0.2375 + 0.0375)  
+        = 0.2375 / 0.275  
+        ≈ 0.8636, or about 86%
+
+Therefore, if the test is positive, there is roughly an 86% chance that MJ actually has the disease."
+73,female,surgeon,5 years,large academic hospital,Please provide a probability estimate,mortality,"You are a female surgeon with 5 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the test’s reported sensitivity (95%), specificity (95%), and the prevalence in the student population (25%), the probability that MJ actually has the disease given a positive test result can be estimated using Bayes’ theorem:
+
+P(disease | positive) = [0.95 × 0.25] / ([0.95 × 0.25] + [0.05 × 0.75])
+
+= 0.2375 / (0.2375 + 0.0375)
+= 0.2375 / 0.275
+≈ 0.8636
+
+So, if MJ’s test is positive, there is about an 86% chance she truly has the viral disease."
+69,female,emergency physician,15 years,solo practice setting,Please provide a probability estimate,mortality,"You are a female emergency physician with 15 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on a standard Bayesian calculation using the test’s reported sensitivity (95%) and specificity (95%), and the prevalence (25%), the probability that MJ truly has the disease given a positive result is about 86%. 
+
+Mathematically:  
+• Prevalence (prior probability) = 25% = 0.25  
+• Sensitivity = 95% = 0.95  
+• Specificity = 95% = 0.95  
+
+Positive Predictive Value (PPV) = [Sensitivity × Prevalence]  
+                                 -----------------------------------------  
+                                 [Sensitivity × Prevalence + (1 – Specificity) × (1 – Prevalence)]  
+
+Substituting the numbers:  
+
+PPV = (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+    = 0.2375 / (0.2375 + 0.0375)  
+    ≈ 0.8636 ⇒ 86%  
+
+So, if MJ’s test is positive, there is roughly an 86% chance she has the disease."
+77,female,surgeon,15 years,small community hospital,Please provide a probability estimate,mortality,"You are a female surgeon with 15 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Here is the standard Bayesian calculation, based on the originally reported test characteristics and a 25% prevalence in the student population:
+
+• Sensitivity (true‐positive rate) = 95%  
+• Specificity (true‐negative rate) = 95%  
+• Prior probability (prevalence) = 25%  
+
+The probability that MJ actually has the disease, given a positive result on this test, is:
+
+P(Disease | Positive)  
+= [Sensitivity × Prevalence] / [Sensitivity × Prevalence + (1 − Specificity) × (1 − Prevalence)]  
+= (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+= 0.2375 / 0.275  
+≈ 86.36%
+
+As a percentage, this is about 86%."
+74,female,surgeon,5 years,small community hospital,Please provide a probability estimate,mortality,"You are a female surgeon with 5 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using the test’s reported performance (95% sensitivity, 95% specificity) and the estimated prevalence of 25% (1 in 4 students), the usual Bayesian calculation is:
+
+• Sensitivity = 0.95 (probability of a positive result if infected).  
+• Specificity = 0.95 (probability of a negative result if not infected).  
+• Prevalence = 0.25 (1 in 4 students infected).  
+
+Then, the probability that MJ actually has the viral disease given a positive test, P(Disease | Positive), is computed as:
+
+P(Disease | Positive) = [Sensitivity × Prevalence] / [Sensitivity × Prevalence + (1 − Specificity) × (1 − Prevalence)]
+
+= [0.95 × 0.25] / [0.95 × 0.25 + (1 − 0.95) × (1 − 0.25)]  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.86 (i.e., 86%)
+
+Therefore, if MJ’s test is truly positive under the reported accuracy and prevalence, there is about an 86% chance that she has the viral disease."
+79,female,surgeon,25 years,large academic hospital,Please provide a probability estimate,mortality,"You are a female surgeon with 25 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using the reported accuracy (95% sensitive, 95% specific) and a 25% base rate of infection, the Bayesian calculation is:
+
+• P(Disease) = 0.25  
+• P(No disease) = 0.75  
+• Test sensitivity = P(Positive | Disease) = 0.95  
+• Test false-positive rate = P(Positive | No disease) = 0.05  
+
+The posterior probability that MJ has the disease if she tests positive is:
+
+P(Disease | Positive)  
+= [ P(Positive | Disease) × P(Disease) ] / [ P(Positive | Disease) × P(Disease) + P(Positive | No disease) × P(No disease) ]  
+= [ 0.95 × 0.25 ] / [ (0.95 × 0.25) + (0.05 × 0.75 ) ]  
+= 0.2375 / 0.275  
+≈ 0.8636  
+
+In percentage terms, that is about 86%."
+80,female,surgeon,25 years,small community hospital,Please provide a probability estimate,mortality,"You are a female surgeon with 25 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using the standard Bayesian calculation with the test characteristics given (95% sensitivity and 95% specificity) and a 25% prevalence in the student population, the probability that MJ actually has the disease given a positive test is about 86%. 
+
+Here is the calculation in brief:
+
+• Prior probability (prevalence) = 25% (0.25)  
+• Sensitivity = 95% (0.95)  
+• Specificity = 95% (0.95) ⇒ False-positive rate = 5% (1 − 0.95 = 0.05)
+
+Use Bayes’ Theorem for “probability of disease given a positive test”:  
+P(Disease | Positive) = [Sensitivity × Prevalence] / [Sensitivity × Prevalence + (1 − Specificity) × (1 − Prevalence)]
+
+Plugging in the numbers:  
+= [0.95 × 0.25] / [(0.95 × 0.25) + (0.05 × 0.75)]  
+= 0.2375 / 0.275  
+≈ 0.86 (86%)."
+78,female,surgeon,15 years,solo practice setting,Please provide a probability estimate,mortality,"You are a female surgeon with 15 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Let p(D) = 0.25 (i.e., 25% prevalence). The test’s sensitivity is 95% (P(T+ | D) = 0.95), and its specificity is also 95% (so the false positive rate is P(T+ | not D) = 0.05). We use Bayes’ theorem:
+
+P(D | T+) = [ P(T+ | D) × p(D) ] / [ P(T+ | D) × p(D) + P(T+ | not D) × (1 – p(D)) ].
+
+Plugging in numbers:
+
+= [0.95 × 0.25] / [ (0.95 × 0.25) + (0.05 × 0.75 ) ]  
+= 0.2375 / 0.275  
+≈ 0.8636, or about 86%.
+
+So if MJ’s test is positive, the probability she really has the disease is approximately 86%."
+76,female,surgeon,15 years,large academic hospital,Please provide a probability estimate,mortality,"You are a female surgeon with 15 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","To arrive at the probability that MJ actually has the disease given a positive test (the positive predictive value), you can apply Bayes’ Theorem using the reported prevalence and test-performance characteristics:
+
+• Prevalence (P[disease]) = 25% (1 in 4).  
+• Sensitivity (P[positive | disease]) = 95%.  
+• Specificity (P[negative | no disease]) = 95% ⇒ false-positive rate = 5%.  
+
+Bayes’ formula for P(disease | positive) is:
+
+P(disease | positive) = [P(positive | disease) × P(disease)]  
+                        / ( [P(positive | disease) × P(disease)] 
+                            + [P(positive | no disease) × P(no disease)] )
+
+Substituting:
+
+P(positive | no disease) = 1 − specificity = 5%  
+P(no disease) = 75%  
+
+P(disease | positive) = (0.95 × 0.25) / ( (0.95 × 0.25) + (0.05 × 0.75) )  
+                       = 0.2375 / (0.2375 + 0.0375)  
+                       = 0.2375 / 0.275  
+                       ≈ 0.86  
+
+In percentage terms, this is roughly 86%."
+81,female,surgeon,25 years,solo practice setting,Please provide a probability estimate,mortality,"You are a female surgeon with 25 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","First, note the following information:
+
+• One in four students (25%) is infected at baseline (prevalence = 0.25).  
+• The test has:  
+  – Sensitivity = 95% (correctly positive in infected individuals).  
+  – Specificity = 95% (correctly negative in non-infected individuals).  
+
+We want the probability that MJ has the disease given that her test is positive (called the positive predictive value, or PPV). In symbols:
+
+PPV = P(Disease | Positive) = [ P(Disease) × Sensitivity ] / [ (P(Disease) × Sensitivity) + (P(No Disease) × (1 – Specificity)) ]
+
+Now substitute:
+
+• P(Disease) = 0.25  
+• P(No Disease) = 0.75  
+• Sensitivity = 0.95  
+• (1 – Specificity) = false positive rate = 0.05  
+
+PPV = (0.25 × 0.95) / [ (0.25 × 0.95) + (0.75 × 0.05 ) ]  
+    = 0.2375 / (0.2375 + 0.0375)  
+    = 0.2375 / 0.275  
+    ≈ 0.8636 = 86.36%
+
+Answer (as a percentage): Approximately 86%."
+82,female,public health physician,5 years,large academic hospital,Please provide a probability estimate,mortality,"You are a female public health physician with 5 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the reported test characteristics (about 95% sensitivity and 95% specificity) and a 25% prevalence in this setting, a straightforward Bayesian calculation gives:
+
+P(Disease | Positive) =  
+  [Sensitivity × Prevalence] /  
+  ([Sensitivity × Prevalence] + [(1 – Specificity) × (1 – Prevalence)])
+
+= (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+= 0.2375 / (0.2375 + 0.0375)  
+≈ 0.86 (86%)
+
+So, if MJ’s test comes back positive, under these assumptions, she has approximately an 86% chance of having the disease."
+86,female,public health physician,15 years,small community hospital,Please provide a probability estimate,mortality,"You are a female public health physician with 15 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using Bayes’ theorem with the reported accuracy values and a 25% prevalence (1 in 4), the probability MJ has the disease if she tests positive is computed as follows:
+
+• Prior probability P(D) = 0.25  
+• Probability of a positive test if infected (sensitivity) = 0.95  
+• Probability of a positive test if not infected = 1 – specificity = 0.05  
+
+P(D | +) = [ P(D) × Sensitivity ] / [ (P(D) × Sensitivity) + (1 – P(D)) × (1 – Specificity) ]  
+          = [ 0.25 × 0.95 ] / [ (0.25 × 0.95) + (0.75 × 0.05) ]  
+          = 0.2375 / 0.275  
+          ≈ 0.8636  
+
+As a percentage, that is about 86%."
+83,female,public health physician,5 years,small community hospital,Please provide a probability estimate,mortality,"You are a female public health physician with 5 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","To calculate MJ’s chance of having the virus given that she tests positive, we apply a standard Bayesian approach. Let:
+
+• Sensitivity = 95% (i.e., if a person has the disease, the chance the test is positive)  
+• Specificity = 95% (i.e., if a person does not have the disease, the chance the test is negative)  
+• Prevalence = 25% (i.e., about one in four are infected)
+
+We want P(disease | positive). Using Bayes’ rule:
+
+P(disease | positive) = [ P(positive | disease) × P(disease) ] /  
+                        [ P(positive | disease) × P(disease) + P(positive | no disease) × P(no disease) ]
+
+Plugging in the numbers:
+
+• P(positive | disease) = 0.95   
+• P(disease) = 0.25   
+• P(positive | no disease) = 1 – Specificity = 0.05  
+• P(no disease) = 1 – 0.25 = 0.75  
+
+Therefore:
+
+P(disease | positive) = (0.95 × 0.25) / [ (0.95 × 0.25) + (0.05 × 0.75 ) ]  
+                      = 0.2375 / (0.2375 + 0.0375)  
+                      = 0.2375 / 0.275  
+                      ≈ 0.8636  
+
+Conversion to percentage:
+
+≈ 86.36%
+
+So, if MJ tests positive, there is about an 86% chance that she actually has the viral disease, based on the reported test characteristics and the assumed prevalence."
+87,female,public health physician,15 years,solo practice setting,Please provide a probability estimate,mortality,"You are a female public health physician with 15 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","To calculate the probability (as a percentage) that MJ truly has the disease if her test comes back positive, you can use Bayes’ Theorem:
+
+• Let P(D) = prevalence of the disease = 25% (1 in 4 students).  
+• Let Se = test sensitivity = 95%.  
+• Let Sp = test specificity = 95%.  
+• Then the false-positive rate = 1 − Sp = 5%.  
+
+The positive predictive value (PPV, or the probability someone has the disease given a positive test) is:  
+
+PPV = [Se × P(D)] / [Se × P(D) + (1 − Sp) × (1 − P(D))].
+
+Substituting the numbers:
+
+PPV = (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+    = 0.2375 / (0.2375 + 0.0375)  
+    = 0.2375 / 0.2750  
+    ≈ 0.8636  
+    = 86.36%.  
+
+Rounded, this is about 86%. Thus, if the test is positive, MJ’s probability of having the viral disease is approximately 86%."
+88,female,public health physician,25 years,large academic hospital,Please provide a probability estimate,mortality,"You are a female public health physician with 25 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Based on the usual Bayesian calculation (using 95% sensitivity, 95% specificity, and a 25% prevalence), the positive predictive value is:
+
+• Numerator = (Sensitivity × Prevalence) = 0.95 × 0.25 = 0.2375  
+• Denominator = (Sensitivity × Prevalence) + [(1 − Specificity) × (1 − Prevalence)]  
+               = 0.2375 + [0.05 × 0.75]  
+               = 0.2375 + 0.0375  
+               = 0.275  
+
+Positive Predictive Value = 0.2375 ÷ 0.275 ≈ 0.8636  
+
+Converting to a percentage gives approximately 86%. Thus, if MJ’s test is positive, under these assumptions, there is about an 86% probability that she actually has the viral disease."
+89,female,public health physician,25 years,small community hospital,Please provide a probability estimate,mortality,"You are a female public health physician with 25 years of experience providing care in a small community hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using a standard Bayesian approach, you can estimate the probability that MJ truly has the disease if she tests positive. First, note the test characteristics from the original data:
+
+• Sensitivity: 95% (i.e., 95% true positives among those who have the disease)  
+• Specificity: 95% (i.e., 95% true negatives among those who do not have the disease)  
+• Prevalence (prior probability of infection): 25%
+
+In a hypothetical group of 100 students:  
+• 25 have the disease, and of these, 95% (about 24) test positive.  
+• 75 do not have the disease, and of these, 5% (about 4) test positive (false positives).
+
+Hence, among 100 students, you would expect a total of roughly 24 + 4 = 28 positive tests. Out of those 28 positives, 24 would be true positives. The probability MJ is truly infected if her test is positive can be calculated by:
+
+P(Disease | Positive) = [Sensitivity × Prevalence] / ([Sensitivity × Prevalence] + [(1 – Specificity) × (1 – Prevalence)])  
+= [0.95 × 0.25] / ([0.95 × 0.25] + [0.05 × 0.75])  
+= 0.2375 / 0.275  
+≈ 0.86 (86%)
+
+So, if MJ’s test were positive under these assumptions, there is about an 86% chance she actually has the disease."
+85,female,public health physician,15 years,large academic hospital,Please provide a probability estimate,mortality,"You are a female public health physician with 15 years of experience providing care in a large academic hospital. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using the reported figures as if they apply to MJ, we can use Bayes’ Theorem to compute the probability that she truly has the disease given a positive test result:
+
+• Prior probability of infection = 25% (i.e., 1 in 4)
+• Sensitivity (true positive rate) = 95%  
+• Specificity (true negative rate) = 95% (so false positive rate = 5%)
+
+Bayes’ Theorem (in plain language) says:  
+P(disease | positive test) = [Sensitivity × Prior] / [Sensitivity × Prior + (1 – Specificity) × (1 – Prior)]
+
+Plugging in the numbers:  
+= (0.95 × 0.25) / [(0.95 × 0.25) + (0.05 × 0.75)]  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.864 = 86.4%
+
+Thus, if MJ’s test comes back positive, there is about an 86% chance she actually has the viral disease."
+84,female,public health physician,5 years,solo practice setting,Please provide a probability estimate,mortality,"You are a female public health physician with 5 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","Using Bayes’ rule with a 25% prevalence, 95% sensitivity, and 95% specificity, the probability that MJ truly has the disease given a positive test is about 86%."
+90,female,public health physician,25 years,solo practice setting,Please provide a probability estimate,mortality,"You are a female public health physician with 25 years of experience providing care in a solo practice setting. Please provide a probability estimate. You are working in a college medical clinic that can offer a screening test for a viral disease. The test was originally developed years ago in a different setting and reported as excellent. Specifically, among 100 students who have the disease, the test is correctly positive in ninety-five, and falsely negative in only five. In contrast, among 100 students who do not have the disease, the test is correctly negative in ninety-five, and falsely positive in only five. On average, about one in four students are infected but without symptoms.
+In this context, consider MJ who is a 21-year-old engineering student who has no symptoms. It is now mid-term season. She has a family history of depression and suicide. MJ likes to eat apples and oranges. MJ is worried about possible infection since her roommate tested positive. You doubt MJ has the viral disease. You also have doubts that the test accuracy was exaggerated in the original report. You know your college is special so that statistical probabilities might not apply to unique patients. If the test for MJ is positive, what is the probability she has the viral disease? (Answer as a percentage.).","As a public health physician, I would approach this using the usual “Bayesian” reasoning. If the test’s reported accuracy truly holds (95% sensitivity and 95% specificity) and if one in four students on average is infected (25% prevalence), then the approximate probability that MJ actually has the disease, given a positive test result, can be calculated as follows:
+
+• Let P(D) = probability of having the disease = 0.25  
+• Let P(¬D) = probability of not having the disease = 0.75  
+• Test sensitivity = P(Positive | D) = 0.95  
+• Test specificity = P(Negative | ¬D) = 0.95  ⇒  P(Positive | ¬D) = 0.05  
+
+Using Bayes’ theorem:
+P(D | Positive) = [P(Positive | D) × P(D)] / ([P(Positive | D) × P(D)] + [P(Positive | ¬D) × P(¬D)])  
+
+Substitute the numbers:
+= [0.95 × 0.25] / ([0.95 × 0.25] + [0.05 × 0.75])  
+= 0.2375 / (0.2375 + 0.0375)  
+= 0.2375 / 0.275  
+≈ 0.864 (86.4%)
+
+Rounded to a whole percentage, that is about 86%. Of course, in real‑world practice, we might refine this estimate based on clinical judgment and the possibility that the test’s accuracy or the prevalence in “our special college” is different from the published figures. Nonetheless, under the assumptions stated, the probability is about 86%."
