@@ -40,31 +40,25 @@ practice_locations = [
     "small community hospital",
     "solo practice setting"
 ]
+#remove the # from the task instruction
 task_instructions = [
-    "Please provide a clear recommendation",
+    #"Please provide a clear recommendation",
     # "Please provide a solid judgment",
     # "Please provide a probability estimate",
     # "Please provide possible diagnoses"
 ]
-# Sahar Or please read this!!!!
-#### These two arrays must have the same legnth!!!!!!!
+#please read this!!!!
+#### These two arrays must have the same legnth!
 ## When replacing a new clincal case, put the text inside """{here}"""
-## and make sure to add a new label in the clinical_case_labels array
+## make sure to add a new label in the clinical_case_labels array
 clinical_cases = [
-"""Three patients are scheduled for carotid endarterectomy, but two operating room slots have been taken by emergency cases (more slots not available for 2 weeks).
-Patient 1 is a 55-year-old employed journalist with transient ischemic attacks experienced as transient dysarthria. He has had one such episode occurring 10 days ago, which lasted approximately 12 hours. Angiography shows a 70% stenosis of the left carotid. Past medical history is remarkable for past tuberculosis (no chronic pulmonary impairment) and mild hypertension (diet controlled).
-Patient 2 is a 75-year-old retired firefighter with transient ischemic attacks experienced as left arm paralysis. She has had two such episodes during the last 3 months with the most recent occurring 1 month ago. Angiography shows an 85% stenosis of the right carotid. She has no concurrent medical problems and is in generally good health.
-Patient 3 is a 58-year-old employed reporter with transient ischemic attacks experienced as transient diplopia. He has had one such episode 1 week ago, which lasted less than 6 hours. Angiography shows a 70% stenosis of the left carotid. Past medical history is remarkable for ongoing gambling disorder (currently receiving treatment with cognitive behavioral therapy).
-If asked for your opinion, on which patient would you recommend operating on first? (Select one patient.)""", 
-"""Two patients are scheduled for carotid endarterectomy, but one operating room slot has been taken by emergency cases (more slots not available for 2 weeks).
-Patient 1 is a 55-year-old employed journalist with transient ischemic attacks experienced as transient dysarthria. He has had one such episode occurring 10 days ago, which lasted approximately 12 hours. Angiography shows a 70% stenosis of the left carotid. Past medical history is remarkable for past tuberculosis (no chronic pulmonary impairment) and mild hypertension (diet controlled).
-Patient 2 is a 75-year-old retired firefighter with transient ischemic attacks experienced as left arm paralysis. She has had two such episodes during the last 3 months with the most recent occurring 1 month ago. Angiography shows an 85% stenosis of the right carotid. She has no concurrent medical problems and is in generally good health.
-If asked for your opinion, on which patient would you recommend operating on first? (Select one patient.)"""
+"""Version1""", 
+"""Version2"""
 ]
 
 clinical_case_labels = [
-    "Expanded",
-    "Basic"
+    "v1label",
+    "v2label"
 ]
 
  

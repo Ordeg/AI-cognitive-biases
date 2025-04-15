@@ -1,0 +1,1872 @@
+combination_id,sex,specialty,experience,practice_location,task_instruction,clinical_case_type,prompt,response
+6,male,family physician,15 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a male family physician with 15 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on current guidelines for preoperative cardiac risk assessment—and noting that she has stable angina, a normal physical exam for her condition, and functional capacity ≥4 METs (she climbs a flight of stairs daily)—routine further cardiac testing is not necessary. She does not exhibit new or unstable symptoms, and therefore noninvasive cardiac screening is unlikely to change her management.  "
+1,male,family physician,5 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a male family physician with 5 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her ability to climb a flight of stairs daily (demonstrating at least moderate functional capacity) and her stable cardiac status, no further cardiac testing is indicated. She can proceed with surgery under optimized medical management and routine perioperative monitoring, as recommended by current guidelines."
+8,male,family physician,25 years,small community hospital,Please provide a clear recommendation,mortality,"You are a male family physician with 25 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable cardiac history, good functional capacity (able to climb at least one flight of stairs without symptoms), and absence of new or unstable symptoms, additional preoperative cardiac testing does not appear necessary. Current guidelines and risk stratification tools generally do not recommend further testing in stable patients with adequate exercise tolerance (≥4 METs) undergoing intermediate-risk surgery (such as laparoscopic cholecystectomy)."
+4,male,family physician,15 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a male family physician with 15 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on current guidelines and her clinical status, no further cardiac testing appears necessary. She is able to climb a flight of stairs (indicating at least moderate functional capacity), has no concerning signs of active or unstable cardiac issues, and her past coronary event was years ago with no interval changes suggestive of worsening disease. Therefore, proceeding directly to surgery would be appropriate without additional preoperative cardiac evaluation."
+5,male,family physician,15 years,small community hospital,Please provide a clear recommendation,mortality,"You are a male family physician with 15 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable cardiac history, lack of new or worsening symptoms, and sufficient functional capacity (being able to climb a flight of stairs daily), further cardiac testing is not routinely indicated before an intermediate‐risk operation like a cholecystectomy. According to standard preoperative cardiac risk assessment guidelines (e.g., ACC/AHA), patients with known coronary disease who can tolerate moderate activity (≥4 METs) without symptoms typically do not benefit from additional noninvasive testing, provided there are no signs of unstable cardiac status. In this situation, proceeding with surgery without further cardiac workup is appropriate."
+2,male,family physician,5 years,small community hospital,Please provide a clear recommendation,mortality,"You are a male family physician with 5 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Recommendation: No additional cardiac testing is necessary given her stable coronary disease and adequate functional capacity.
+
+Rationale: Current guidelines suggest that patients with stable coronary disease who can achieve at least 4 METs of functional capacity (e.g., climbing a flight of stairs) generally do not require further cardiac testing prior to an intermediate-risk procedure such as a cholecystectomy. In this case, the patient’s occasional angina is responsive to nitroglycerin, she can climb a flight of stairs daily without symptoms (indicating at least moderate functional capacity), and her heart rate and blood pressure are well controlled on a beta-blocker. Additional cardiac testing would be unlikely to change management or improve outcomes. Therefore, she can proceed directly to surgery."
+3,male,family physician,5 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a male family physician with 5 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on current guidelines, no additional cardiac testing is indicated in this scenario. Although she has known coronary artery disease and diabetes, she has an adequate functional capacity (e.g., able to climb a flight of stairs) and stable clinical status. Cholecystectomy is an intermediate-risk procedure; in a patient without high-risk features who can meet at least 4 metabolic equivalents (4 METs) of activity, guidelines generally recommend proceeding with surgery without further cardiac testing."
+7,male,family physician,25 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a male family physician with 25 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on current guidelines, further cardiac stress testing is not routinely indicated in this scenario. She appears to have acceptable exercise capacity (able to climb a flight of stairs daily without symptoms) and stable cardiac status (only occasional nitroglycerin use, no recent changes in angina pattern, and well-controlled blood pressure and heart rate). The recommendations would be to proceed with the planned cholecystectomy without additional noninvasive cardiac testing, as she does not have new or poorly controlled cardiac symptoms, her exam is stable, and she demonstrates moderate functional capacity."
+11,male,general internist,5 years,small community hospital,Please provide a clear recommendation,mortality,"You are a male general internist with 5 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Recommendation: No additional cardiac testing is required at this time. She has documented stable coronary disease, good exercise tolerance (able to climb a flight of stairs), and no recent change in her angina pattern. Current guidelines would support proceeding with surgery without further cardiac evaluation given her ability to achieve about ≥4 METs of exertion."
+9,male,family physician,25 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a male family physician with 25 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable cardiac status and preserved functional capacity (able to climb a flight of stairs daily without symptoms), it is reasonable to proceed directly to surgery without additional noninvasive cardiac testing. Although she has known coronary artery disease and a history of CABG, her risk profile (stable vital signs, no new cardiac symptoms, normal renal function, and adequate exercise tolerance) does not meet the usual criteria under which noninvasive cardiac evaluation would alter management before an intermediate-risk procedure such as a cholecystectomy."
+12,male,general internist,5 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a male general internist with 5 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable ischemic heart disease, good functional capacity (able to climb a flight of stairs without symptoms), and absence of new or unstable cardiac symptoms, it is reasonable to proceed without further cardiac testing. According to guidelines, patients who can achieve at least 4 METs of exercise capacity without difficulty—particularly if their cardiac condition is stable—generally do not require additional noninvasive testing before intermediate-risk surgery (such as a cholecystectomy). Therefore, no additional cardiac testing is necessary in this scenario."
+10,male,general internist,5 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a male general internist with 5 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable clinical status, good functional capacity (she can climb a flight of stairs without symptoms), and the intermediate cardiac risk of cholecystectomy, additional cardiac testing is not indicated prior to surgery. According to American College of Cardiology/American Heart Association guidelines, patients with symptoms suggestive of stable coronary disease who can achieve at least four metabolic equivalents (4 METs) of activity (e.g., climbing a flight of stairs) typically do not need further noninvasive cardiac risk stratification before undergoing an intermediate-risk operation. In her situation, proceeding with the planned surgery (with appropriate perioperative medical management such as continuing her beta-blocker) is reasonable without further testing."
+14,male,general internist,15 years,small community hospital,Please provide a clear recommendation,mortality,"You are a male general internist with 15 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Recommendation: No additional cardiac testing is needed prior to surgery.
+
+Explanation:
+• The patient has adequate functional capacity: She reports climbing a flight of stairs each day without symptoms, which corresponds to at least 4 metabolic equivalents (METs). This generally indicates sufficient cardiac reserve.  
+• Her angina appears stable: She only requires nitroglycerin spray occasionally, and there are no signs of unstable cardiac symptoms.  
+• Her comorbidities (diabetes, history of coronary disease) are relatively well-controlled: Blood pressure is acceptable, and there is no evidence of renal impairment (creatinine 1.0 mg/dL).  
+• The planned procedure (cholecystectomy) is considered intermediate risk. In the absence of poor functional capacity, new or unstable symptoms, or other high-risk findings, further preoperative cardiac testing is not indicated per current guidelines.  
+
+Thus, she may proceed to surgery without additional cardiac workup, so long as she remains clinically stable."
+13,male,general internist,15 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a male general internist with 15 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her ability to climb a flight of stairs daily (which indicates a functional capacity of at least 4 METs), the absence of worsening cardiac symptoms, and stable vital signs, additional cardiac testing would not be routinely recommended prior to this intermediate‐risk surgery. This aligns with the ACC/AHA guidelines, which generally do not advise further stress testing in patients with stable coronary disease and adequate functional capacity (≥4 METs) if the results would not change management or delay necessary surgery. Therefore, from the medical perspective, she can proceed to cholecystectomy without further cardiac testing."
+16,male,general internist,25 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a male general internist with 25 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on the available information and current guideline recommendations, further cardiac testing does not appear necessary. She already demonstrates adequate functional capacity (climbing a flight of stairs daily without symptoms), which corresponds to at least 4 METs of exercise tolerance. In addition, there are no signs of active cardiac instability (e.g., recent unstable angina or uncompensated heart failure). Given this stability and reasonable functional status, it would be appropriate to proceed with surgery without additional stress testing. Of course, continuing her current cardiac medications and carefully monitoring her perioperatively remain important measures."
+18,male,general internist,25 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a male general internist with 25 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her history and current presentation, I would not recommend further cardiac testing; she appears to have adequate functional capacity (able to climb a flight of stairs every day without symptoms) and is hemodynamically stable on examination. She has a history of coronary artery disease but has been stable since her bypass surgery six years ago, uses nitroglycerin only occasionally, and shows no signs of active cardiac instability. Thus, it is reasonable to proceed to surgery without further noninvasive cardiac risk stratification."
+17,male,general internist,25 years,small community hospital,Please provide a clear recommendation,mortality,"You are a male general internist with 25 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her presentation, additional cardiac testing before surgery is not routinely indicated. She has acceptable functional capacity (climbing a flight of stairs without symptoms) and no new or unstable cardiac findings, and her angina appears stable. Cholecystectomy is considered an intermediate‑risk procedure; according to current guidelines, patients who can achieve ≥4 METS (e.g., climbing one flight of stairs) without significant symptoms generally do not require further noninvasive cardiac testing unless there is a change in their clinical status. Therefore, no further preoperative cardiac testing is necessary prior to her cholecystectomy."
+15,male,general internist,15 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a male general internist with 15 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable clinical status, lack of active cardiac conditions, and ability to climb a flight of stairs without symptoms (which equates to at least 4 METs of functional capacity), no additional cardiac testing would be recommended. According to the ACC/AHA guidelines on perioperative cardiovascular evaluation, patients who have acceptable functional capacity (≥4 METs), no severe valvular disease, and no ongoing unstable or high‐risk cardiac conditions typically do not benefit from further noninvasive testing prior to intermediate‐risk surgery such as a cholecystectomy."
+21,male,emergency physician,5 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a male emergency physician with 5 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on the information provided, routine additional cardiac testing (e.g., a stress test) is not necessary in this situation. Here is the reasoning:
+
+1. Functional Capacity: She can climb a flight of stairs daily without symptoms. Climbing one flight typically corresponds to at least 4 METs (metabolic equivalents) of exercise capacity. According to American College of Cardiology/American Heart Association (ACC/AHA) guidelines, patients who can achieve ≥4 METs without significant symptoms generally do not require additional noninvasive cardiac testing before intermediate-risk surgery.
+
+2. Clinical Stability: Although she has known coronary artery disease and requires nitroglycerin occasionally, there is no indication of unstable or worsening cardiac symptoms (for example, unstable angina or heart failure). Her heart rate and blood pressure are well controlled, and her exam is stable.
+
+3. Type of Surgery: A laparoscopic cholecystectomy (assuming that is the surgical approach) is considered an intermediate-risk procedure with a relatively low perioperative cardiac risk. In the absence of new or unstable cardiac findings, routine preoperative stress testing would not change management or significantly lower perioperative risk.
+
+Therefore, because of her adequate exercise tolerance and stable clinical status, it is reasonable to proceed with surgery without further cardiac testing. If she develops any new cardiac symptoms or signs, then cardiac re-evaluation would be indicated."
+19,male,emergency physician,5 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a male emergency physician with 5 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on the available information, no additional cardiac testing is indicated before her cholecystectomy. The key factors supporting this approach are:
+
+• She demonstrates adequate functional capacity (climbs a flight of stairs daily without symptoms), suggesting she can achieve ≥4 METs of exercise; this meets a commonly accepted threshold for proceeding without further noninvasive cardiac evaluation.  
+• Her angina is stable and she has not reported any recent change in cardiac symptoms.  
+• Her vital signs (heart rate 58 bpm, blood pressure 115/75 mm Hg) are stable, and her labs show normal renal function.  
+• Her ECG shows only findings of a prior infarction (Q waves) and a first-degree AV block, with no signs of new ischemia or arrhythmia.
+
+She would benefit from continuing her current medical therapy (including beta blockade) and careful perioperative monitoring, but repeat stress testing or imaging would not be expected to change the plan of care or improve outcomes given her stable status and acceptable functional capacity."
+22,male,emergency physician,15 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a male emergency physician with 15 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable cardiovascular status, good functional capacity (able to climb a flight of stairs without symptoms), and the fact that cholecystectomy is considered an intermediate‐risk surgery, no further cardiac evaluation is needed prior to surgery. She does not exhibit active cardiac conditions warranting urgent testing (such as unstable angina, decompensated heart failure, significant arrhythmias, or severe valvular disease). Thus, she can proceed to surgery without additional cardiac stress testing."
+20,male,emergency physician,5 years,small community hospital,Please provide a clear recommendation,mortality,"You are a male emergency physician with 5 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable clinical status, good functional capacity (able to climb a flight of stairs daily without symptoms corresponds to at least 4 METs), and the intermediate-risk nature of an elective cholecystectomy, she does not require further cardiac testing to assess preoperative risk. Current guidelines generally reserve noninvasive cardiac testing for patients with poor or unknown functional capacity who face higher-risk surgery or who exhibit unstable cardiac symptoms. In this patient’s case, her stable angina pattern, controlled vital signs, adequate renal function, and ability to exert herself without cardiac symptoms all suggest it is reasonable to proceed without additional cardiac workup."
+23,male,emergency physician,15 years,small community hospital,Please provide a clear recommendation,mortality,"You are a male emergency physician with 15 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on standard guidelines (such as those from the American College of Cardiology/American Heart Association), preoperative cardiac testing is generally not indicated in a patient who has stable ischemic heart disease, carries no new cardiac symptoms, and has acceptable functional capacity (≥4 METs, e.g., able to climb one flight of stairs without distress). In this patient’s case:
+
+• She is stable on her current cardiac medications (metoprolol, lisinopril, aspirin, simvastatin, and amlodipine).  
+• She has acceptable exercise tolerance—able to climb a flight of stairs without symptoms.  
+• Her blood pressure and heart rate are well controlled.  
+• There is no mention of acute changes in her angina pattern or other worrisome cardiac symptoms.
+
+Given her stability and ability to perform at least moderate-intensity activity without cardiac symptoms, additional preoperative cardiac testing (e.g., a stress test) is not typically warranted. Therefore, I would not recommend further cardiac testing prior to her cholecystectomy."
+24,male,emergency physician,15 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a male emergency physician with 15 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her ability to climb a flight of stairs daily (which corresponds to at least four METs of functional capacity), lack of new or unstable cardiac symptoms, and stable coronary disease on appropriate medical therapy, further cardiac testing is not indicated. She does not manifest any “active cardiac condition” (e.g., unstable angina, decompensated heart failure, or significant arrhythmias) that would require delaying or additional evaluation prior to surgery. Under current guidelines, it is appropriate to proceed with the planned cholecystectomy without further noninvasive cardiac testing."
+26,male,emergency physician,25 years,small community hospital,Please provide a clear recommendation,mortality,"You are a male emergency physician with 25 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her clinical stability, previous coronary revascularization (CABG), and ability to climb a flight of stairs (which suggests adequate functional capacity of at least 4 METs), no further cardiac testing is indicated prior to surgery. The ACC/AHA guidelines support proceeding with intermediate-risk surgery (such as cholecystectomy) when a patient with known stable heart disease has acceptable functional capacity (≥4 METs) and without recent or unstable cardiac symptoms."
+29,male,surgeon,5 years,small community hospital,Please provide a clear recommendation,mortality,"You are a male surgeon with 5 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on current guidelines (such as those from the American College of Cardiology/American Heart Association), no additional cardiac testing is indicated in this situation. She has stable cardiac disease, adequate functional capacity (she can climb a flight of stairs every day without symptoms, which corresponds to ≥4 METS of activity), and she is undergoing a moderate-risk procedure (cholecystectomy). In patients who can achieve ≥4 METS of activity without cardiac symptoms, further noninvasive cardiac testing generally does not change management or improve outcomes. Therefore, proceeding with surgery without additional cardiac studies is appropriate unless there is a change in her clinical status suggesting instability."
+27,male,emergency physician,25 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a male emergency physician with 25 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on the American College of Cardiology/American Heart Association (ACC/AHA) guidelines for perioperative cardiovascular evaluation, no additional cardiac testing is indicated in this patient. She has a good functional capacity (able to climb a flight of stairs daily without symptoms), is clinically stable on appropriate medications (including beta-blocker and anti-anginal therapy), and is scheduled for an intermediate-risk operation (cholecystectomy). Her ability to achieve at least four METs (metabolic equivalents) without symptoms is usually sufficient to forego further noninvasive cardiac testing, provided there are no new or unstable cardiac symptoms. Accordingly, it would be reasonable to proceed with surgery without further cardiac workup."
+28,male,surgeon,5 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a male surgeon with 5 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable cardiac history, absence of new cardiac symptoms, and adequate functional capacity (she can climb a flight of stairs daily without symptoms, suggesting ≥4 METs), further cardiac testing is not indicated prior to surgery. According to guideline-based recommendations, additional testing generally is not needed in patients who have good exercise tolerance and stable coronary disease unless they exhibit signs or symptoms of decompensation. Consequently, she may proceed with the planned cholecystectomy without additional noninvasive cardiac evaluation."
+31,male,surgeon,15 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a male surgeon with 15 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her acceptable functional capacity (climbing a flight of stairs without symptoms), stable coronary disease, and the intermediate‐risk nature of a laparoscopic cholecystectomy, no additional cardiac testing is needed. She can proceed to surgery with standard perioperative management (i.e., continue her beta‐blocker, optimize her diabetes, and monitor hemodynamics closely). Only if new cardiac symptoms develop or her exercise tolerance unexpectedly worsens would further cardiac evaluation be indicated."
+32,male,surgeon,15 years,small community hospital,Please provide a clear recommendation,mortality,"You are a male surgeon with 15 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable clinical status, good functional capacity (able to climb a flight of stairs daily), and absence of active cardiac issues (e.g., unstable angina, recent decompensated heart failure, significant arrhythmias), further cardiac testing is not routinely indicated. Current guidelines generally do not recommend additional testing in patients who have acceptable exercise tolerance and no new or unstable signs or symptoms. Optimizing her existing medical therapy and proceeding with surgery is appropriate unless new concerning cardiac findings arise."
+30,male,surgeon,5 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a male surgeon with 5 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Recommendation: No additional cardiac testing is necessary. Proceed with surgery.
+
+Explanation: She reports being able to climb a flight of stairs without symptoms on a daily basis (which corresponds to a functional capacity of at least 4 METs). According to current guidelines, if a patient has satisfactory functional capacity (≥4 METs), is hemodynamically stable, and has no concerning features on basic preoperative evaluation, further cardiac stress testing is generally not indicated. In this patient’s situation, her stable angina, prior coronary revascularization, and good exercise tolerance suggest that she is at a relatively acceptable cardiac risk for an intermediate-risk surgery such as cholecystectomy."
+25,male,emergency physician,25 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a male emergency physician with 25 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable cardiac history (no recent symptoms, no unstable angina) and adequate functional capacity (she can climb one flight of stairs daily without symptoms, corresponding to ≥4 METs), further cardiac testing would not be indicated prior to a cholecystectomy. Per current guidelines, patients with moderate or better functional capacity, no active cardiac conditions, and an intermediate‐risk operation (such as cholecystectomy) generally do not benefit from noninvasive cardiac tests. Proceed with surgery, ensuring her usual medications and risk factors remain well‐controlled perioperatively."
+34,male,surgeon,25 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a male surgeon with 25 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on current guidelines (for example, the ACC/AHA Perioperative Guidelines), further cardiac testing is not routinely recommended in this situation. She has acceptable functional capacity (able to climb a flight of stairs), stable symptoms, and no evidence of active or unstable cardiac disease. Cholecystectomy is considered at most an intermediate-risk procedure, and her ability to climb one flight of stairs without symptoms meets the usual 4 METs threshold that generally obviates the need for further noninvasive testing. Therefore, it is reasonable to proceed with surgery without additional cardiac workup."
+35,male,surgeon,25 years,small community hospital,Please provide a clear recommendation,mortality,"You are a male surgeon with 25 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on the currently accepted guidelines for preoperative cardiac evaluation, no further cardiac testing is necessary in this situation. Although she does have significant cardiac risk factors (prior myocardial infarction, coronary surgery, diabetes requiring insulin), she has stable symptoms and good functional capacity (able to climb a flight of stairs without difficulty). Furthermore, she exhibits no alarming features such as unstable angina, decompensated heart failure, new arrhythmias, or severe valvular disease.
+
+Her ability to climb a flight of stairs suggests a functional capacity of at least 4 METs (metabolic equivalents), which typically meets the threshold for safe surgery without the need for additional noninvasive testing. The cholecystectomy is considered an intermediate-risk operation; in the absence of new high-risk findings or poor functional status, guidelines do not generally support further cardiac testing.
+
+Therefore, she can safely proceed with surgery without additional preoperative cardiac workup."
+33,male,surgeon,15 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a male surgeon with 15 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable status, the absence of active cardiac symptoms, and her demonstrated ability to climb a flight of stairs each day (implying ≥4 METs of functional capacity), she does not meet guideline criteria for further noninvasive cardiac testing. In other words, she can proceed with surgery without additional cardiac workup, assuming she remains clinically stable and continues her current medical therapy (including beta-blockade)."
+38,male,public health physician,5 years,small community hospital,Please provide a clear recommendation,mortality,"You are a male public health physician with 5 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her ability to climb a flight of stairs daily without symptoms (i.e., demonstrating at least 4 METs of functional capacity) and her otherwise stable cardiac status, additional cardiac testing would not be routinely recommended. Although she has underlying coronary artery disease, her current functional level and stable symptoms suggest she can likely tolerate an intermediate-risk procedure such as a cholecystectomy without further cardiac evaluation. Therefore, I would not recommend more cardiac testing before surgery."
+36,male,surgeon,25 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a male surgeon with 25 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Recommendation:  
+No additional cardiac testing is necessary in this situation. She has acceptable functional capacity (able to climb a flight of stairs daily without symptoms), stable coronary disease (no new or worsening angina), well-controlled blood pressure, and normal renal function. According to established preoperative cardiac evaluation guidelines, patients who can easily achieve ≥4 METs of exercise capacity without significant symptoms generally do not benefit from further cardiac stress testing before intermediate-risk surgery (such as cholecystectomy), provided their condition remains stable and they have no new concerning cardiac symptoms. Proceed with the planned operation using standard perioperative cardiac precautions (e.g., continuing beta-blockers, monitoring hemodynamics) rather than pursuing additional cardiac testing."
+40,male,public health physician,15 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a male public health physician with 15 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable clinical profile, the ability to climb a flight of stairs (indicating at least moderate functional capacity of ≥4 METs), and the absence of unstable cardiac symptoms, no further noninvasive cardiac testing is necessary prior to proceeding with surgery. Her history of coronary disease is remote (6 years), and she is on an appropriate medical regimen. These factors, taken together with stable vital signs and normal exercise tolerance, suggest that her cardiac risk is acceptable without additional workup."
+37,male,public health physician,5 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a male public health physician with 5 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on current guideline recommendations, she does not require additional cardiac testing. She is able to climb a flight of stairs (indicating functional capacity ≥4 METs) and has no new or unstable cardiac symptoms, making further noninvasive cardiac evaluation unlikely to change management or improve outcomes. In this situation, proceeding with surgery (while continuing her appropriate medical therapy) is a reasonable course of action."
+41,male,public health physician,15 years,small community hospital,Please provide a clear recommendation,mortality,"You are a male public health physician with 15 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on current guidelines (e.g., the ACC/AHA guidelines for perioperative cardiovascular evaluation), additional cardiac testing does not appear necessary. Your patient demonstrates at least moderate functional capacity (able to climb a flight of stairs), her coronary disease is stable (only occasional use of nitroglycerin spray, no recent unstable angina), and she is free of other high-risk features (e.g., acute heart failure, decompensated valvular disease). Therefore, with no signs of active cardiac instability, it is reasonable to proceed directly to surgical management without further noninvasive cardiac testing."
+42,male,public health physician,15 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a male public health physician with 15 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her history and current clinical status, further cardiac testing is not indicated. The critical point here is her ability to climb a flight of stairs daily without symptoms, which suggests a functional capacity exceeding 4 METs. According to current guidelines, in a patient with stable coronary artery disease and acceptable functional capacity (≥4 METs), additional cardiac testing is generally not necessary before an intermediate-risk operation such as a cholecystectomy, provided there are no new or unstable cardiac findings. Consequently, she may proceed to surgery without further cardiac testing."
+44,male,public health physician,25 years,small community hospital,Please provide a clear recommendation,mortality,"You are a male public health physician with 25 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her clinical stability and adequate functional capacity (able to climb a flight of stairs daily without symptoms, suggesting at least 4 METS), no new or worsening cardiac symptoms, and the intermediate risk nature of a cholecystectomy, further cardiac testing is not routinely indicated. In the absence of unstable cardiac findings, active ischemia, or poor functional status, current guidelines support moving forward with surgery without additional stress testing. The key is to continue optimal medical management (including beta-blockade, aspirin, and other appropriate therapies) and use standard perioperative monitoring."
+43,male,public health physician,25 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a male public health physician with 25 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable cardiovascular symptoms, adequate functional capacity (she can climb a flight of stairs without difficulties), and the intermediate‐risk nature of the planned cholecystectomy, no additional cardiac testing is necessary. According to current ACC/AHA guidelines, patients who can achieve more than four METs of activity without developing cardiac symptoms and have no new or unstable clinical findings do not require further noninvasive testing before intermediate‐risk surgery. Her coronary disease is stable, and her current status does not suggest any emerging high‐risk features. Therefore, she can proceed to surgery without additional cardiac evaluation."
+39,male,public health physician,5 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a male public health physician with 5 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her ability to climb a flight of stairs without symptoms (i.e., ≥4 METs of functional capacity) and the absence of unstable cardiac symptoms, no additional cardiac testing is indicated. Current guidelines do not recommend further noninvasive cardiac evaluation in stable patients with adequate functional capacity who are undergoing intermediate-risk surgery, as testing would not be expected to change management or improve outcomes in this scenario. Proceeding directly to cholecystectomy is appropriate."
+45,male,public health physician,25 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a male public health physician with 25 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on the patient’s stable cardiac status and her ability to climb a flight of stairs every day (which suggests at least 4 METs of functional capacity), no further noninvasive cardiac testing is needed under usual guidelines. She has stable coronary artery disease, is six years out from her myocardial infarction and bypass surgery, and her angina is infrequent and controlled. Since cholecystectomy is an intermediate-risk procedure and she demonstrates adequate exercise tolerance without new or worsening symptoms, proceeding with surgery without additional stress testing is appropriate."
+47,female,family physician,5 years,small community hospital,Please provide a clear recommendation,mortality,"You are a female family physician with 5 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on current guidelines, additional cardiac testing is not indicated before her cholecystectomy. In particular, she demonstrates adequate functional capacity (able to climb a flight of stairs daily without symptoms), has stable cardiac status (remote myocardial infarction 6 years ago with no recent changes in angina frequency), and will undergo a procedure that is generally considered intermediate risk. Therefore, no further noninvasive cardiac workup is required, and she may proceed with surgery."
+48,female,family physician,5 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a female family physician with 5 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable clinical status, good functional capacity (climbing at least one flight of stairs daily without symptoms indicates ≥ 4 METs), and the fact that she has no evidence of unstable cardiac disease, additional cardiac testing before cholecystectomy would not be recommended. Her coronary disease appears well-controlled (infrequent, stable angina) and she is on appropriate medical therapy with no new concerning findings. In accordance with standard preoperative cardiac evaluation guidelines, no further noninvasive testing is indicated for this intermediate-risk surgery, given her adequate exercise tolerance and stable cardiac status."
+50,female,family physician,15 years,small community hospital,Please provide a clear recommendation,mortality,"You are a female family physician with 15 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her good functional capacity (able to climb a flight of stairs daily), stable cardiac status (no new or unstable symptoms), and the relatively lower‐risk nature of a cholecystectomy, no additional cardiac testing appears necessary. From the standpoint of standard perioperative guidelines, patients who can achieve four METs (able to climb a flight of stairs) without undue symptoms and have no acute or unstable cardiac findings generally do not require further cardiac evaluation. Thus, you can proceed to surgery with usual perioperative management, including continuing her guideline‐directed medical therapy."
+49,female,family physician,15 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a female family physician with 15 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on current guidelines, she does not require further cardiac testing. Her exercise tolerance (climbing a flight of stairs daily without symptoms) indicates adequate functional capacity, and she has no signs of unstable cardiac disease. Although she has established coronary artery disease, the condition appears stable, and there are no recent changes in cardiac symptoms to warrant additional testing. Therefore, it would be reasonable to optimize her current medical therapy (ensuring continuation of beta-blockers, aspirin, and statins) and proceed with surgery without further cardiac evaluation."
+46,female,family physician,5 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a female family physician with 5 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on current guidelines, additional cardiac testing does not appear necessary before this patient’s cholecystectomy. She can achieve at least 4 metabolic equivalents (e.g., climbing a flight of stairs) without symptoms, has no new or worsening cardiac complaints, and her angina is stable. In the absence of new or poorly controlled cardiac symptoms, and given her adequate functional capacity, further noninvasive cardiac evaluation would not be expected to alter management or improve outcomes. Therefore, my recommendation is to proceed with surgery without additional preoperative cardiac testing."
+51,female,family physician,15 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a female family physician with 15 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her good functional capacity (at least 4 METs, as evidenced by her ability to climb a flight of stairs without symptoms), stable coronary disease, and no signs of new or unstable cardiac symptoms, additional cardiac testing typically is not necessary prior to cholecystectomy. According to current guidelines, noninvasive stress testing for coronary evaluation is usually reserved for patients with poor functional capacity, new or changing cardiovascular symptoms, or those undergoing very high–risk surgery. In this case, she appears to be at acceptable operative risk without further cardiac testing."
+54,female,family physician,25 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a female family physician with 25 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her ability to climb a flight of stairs (equivalent to at least 4 METs of activity) without cardiac symptoms, her known but stable coronary artery disease, and no new or unstable cardiac findings, further cardiac testing is not indicated. Current guidelines suggest that patients with good functional capacity (≥4 METs) and no recent changes in their clinical status generally do not benefit from additional preoperative cardiac testing. Proceed with surgery, optimizing her medications and ensuring close perioperative monitoring."
+52,female,family physician,25 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a female family physician with 25 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her ability to climb a flight of stairs (which corresponds to at least 4 METs of activity), the stability of her angina, and the absence of any new or unstable cardiac symptoms, additional cardiac testing is not indicated prior to cholecystectomy. According to current guidelines, patients who can achieve 4 METs or more of activity without significant cardiac symptoms generally do not require further preoperative cardiac evaluation if their condition is otherwise stable. Therefore, she can proceed with surgery without additional cardiac testing, while continuing her current medical regimen and standard perioperative precautions."
+53,female,family physician,25 years,small community hospital,Please provide a clear recommendation,mortality,"You are a female family physician with 25 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable clinical picture (unchanged symptoms, ability to climb a flight of stairs daily without limitation, and no active signs of cardiac instability), I would not recommend additional cardiac stress testing. She is already on a beta-blocker (metoprolol), and her angina appears controlled with only occasional use of nitroglycerin. According to the usual preoperative assessment guidelines (such as those from the ACC/AHA), patients who can achieve at least 4 METs of activity (e.g., climbing a flight of stairs or walking several blocks) without cardiac symptoms generally do not require further cardiac investigation before moderate-risk surgeries like cholecystectomy—provided they have no unstable cardiac findings. In her case, her prior myocardial infarction and CABG do not themselves necessitate repeat testing in the absence of new or unstable symptoms. Ensuring her diabetes is well controlled and her other risk factors (e.g., blood pressure) remain well managed is advisable, but no additional cardiac studies appear necessary in this scenario."
+57,female,general internist,5 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a female general internist with 5 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on current guidelines (for example, those of the American College of Cardiology/American Heart Association), further cardiac testing is unlikely to alter management in this patient because she has good functional capacity (able to climb a flight of stairs daily), a stable CAD history (occasional nitroglycerin use, no recent unstable symptoms), and no other high‐risk features (normal creatinine, no evidence of significant arrhythmias). Therefore, additional noninvasive cardiac stress testing is not recommended. Proceeding with the planned cholecystectomy without further cardiac evaluation is reasonable in this scenario."
+55,female,general internist,5 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a female general internist with 5 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on the American College of Cardiology/American Heart Association (ACC/AHA) guidelines, additional cardiac testing would not routinely be indicated in this scenario. She has acceptable functional capacity (able to climb at least one flight of stairs daily) and no new or unstable cardiac symptoms. Although she has known coronary artery disease, her angina is stable, and the planned procedure (cholecystectomy) is considered intermediate-risk. In the absence of new, high-risk features (e.g., unstable angina, acute heart failure, or recent significant arrhythmia), no further cardiac testing is necessary for risk stratification prior to surgery. Therefore, she can proceed with the operation without additional cardiac stress testing."
+58,female,general internist,15 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a female general internist with 15 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her history of stable cardiac disease and good functional capacity (she can climb a flight of stairs regularly without symptoms), additional cardiac testing is not indicated before this intermediate-risk procedure. Per the ACC/AHA guidelines, patients who can achieve ≥4 METs of activity without cardiac symptoms (e.g., angina, heart failure) generally do not need noninvasive stress testing before surgery, especially when there are no signs of unstable cardiac conditions. Therefore, in this case, it would be reasonable to proceed with the cholecystectomy without further cardiac testing, while continuing her current cardiac medications and monitoring perioperatively."
+60,female,general internist,15 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a female general internist with 15 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her ability to climb a flight of stairs daily (indicating at least moderate functional capacity, approximately 4 METs) and stable cardiac status on current medications, further cardiac testing is not likely to change her management or improve surgical outcomes. She has stable coronary disease, well-controlled risk factors, and no new concerning symptoms. Therefore, I would recommend proceeding with the planned cholecystectomy without additional cardiac stress testing."
+59,female,general internist,15 years,small community hospital,Please provide a clear recommendation,mortality,"You are a female general internist with 15 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her adequate functional capacity (she can climb a flight of stairs without symptoms), stable cardiac history (her myocardial infarction was 6 years ago, and she only occasionally needs nitroglycerin for angina), and the fact that cholecystectomy is an intermediate-risk surgical procedure, no additional preoperative cardiac testing is recommended. She appears to be at acceptable risk for surgery under current guidelines, given that she does not have active cardiac symptoms, is on appropriate medical therapy, and demonstrates ≥4 METS of functional capacity.
+
+In other words, her stable clinical status and ability to achieve moderate exercise without limitation suggest that further cardiac testing (e.g., stress evaluation) is unlikely to change management or improve outcomes in this scenario."
+56,female,general internist,5 years,small community hospital,Please provide a clear recommendation,mortality,"You are a female general internist with 5 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on current guidelines, additional cardiac evaluation prior to an intermediate-risk operation (such as a laparoscopic cholecystectomy) is usually reserved for patients who have limited functional capacity (fewer than 4 METs) or new or unstable cardiac symptoms. In this patient’s case:
+
+• She is able to climb a flight of stairs daily without symptoms, indicating at least moderate functional capacity (≥4 METs).  
+• She has stable angina and stable vital signs, and her physical examination and laboratory results do not indicate any acute deterioration.  
+• Her prior history of CABG was 6 years ago, and there is no evidence of unstable or newly worsened cardiac disease.
+
+Therefore, no additional cardiac testing is recommended. She appears appropriate to proceed to surgery without further cardiac workup, as long as her hemoglobin A1c and other routine preoperative labs are acceptable and there are no changes in her clinical status."
+61,female,general internist,25 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a female general internist with 25 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on the patient’s stable clinical status, good functional capacity (she climbs a flight of stairs daily without symptoms, suggesting she can achieve ≥4 METs), and absence of active cardiac conditions (e.g., unstable angina, decompensated heart failure, significant arrhythmias, or severe valvular disease), further noninvasive cardiac testing is not necessary prior to this intermediate-risk surgery (cholecystectomy). According to the current ACC/AHA guidelines, patients with stable coronary disease who can meet a 4 MET or greater functional capacity threshold typically do not require additional preoperative stress testing. Therefore, I would recommend proceeding with surgery without further cardiac testing, while continuing her current medical management."
+64,female,emergency physician,5 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a female emergency physician with 5 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on current guidelines, no additional cardiac testing is indicated in this scenario. Although she has significant cardiac history (CABG and occasional angina), her functional capacity (climbing a flight of stairs daily without symptoms) is at least 4 METS and her condition is clinically stable. In accordance with the American College of Cardiology/American Heart Association guidelines, further noninvasive cardiac testing would not alter management or reduce perioperative risk in a patient who can achieve this level of exercise tolerance and lacks active cardiac symptoms. Therefore, you can proceed with surgery without additional cardiac testing."
+62,female,general internist,25 years,small community hospital,Please provide a clear recommendation,mortality,"You are a female general internist with 25 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable cardiac history, ability to climb a flight of stairs (i.e., ≥4 METs functional capacity), and absence of any active cardiac conditions (e.g., unstable angina or decompensated heart failure), she does not require additional cardiac testing prior to cholecystectomy. According to standard guidelines, patients who can perform at least 4 METs of activity without cardiac symptoms and have no new or unstable clinical findings generally do not benefit from further preoperative cardiac evaluation for intermediate‐risk surgery such as a cholecystectomy."
+66,female,emergency physician,5 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a female emergency physician with 5 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on the current American College of Cardiology/American Heart Association (ACC/AHA) guidelines, additional cardiac testing is not recommended in this situation. The patient has stable cardiac disease, can climb a flight of stairs (which corresponds to roughly ≥4 METs functional capacity), and shows no new or unstable cardiac symptoms. For intermediate-risk surgery such as cholecystectomy, further noninvasive stress testing is generally not indicated if the patient can meet this level of exertion without symptoms. Therefore, you may proceed with surgery without further cardiac testing, while ensuring judicious perioperative management of her known coronary artery disease and other comorbidities."
+67,female,emergency physician,15 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a female emergency physician with 15 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable cardiac status, ability to climb a flight of stairs without symptoms (suggesting adequate functional capacity of ≥4 METs), lack of new or worsening cardiac symptoms, and the intermediate-risk nature of the planned cholecystectomy, further cardiac testing would not be routinely indicated per usual guidelines. Her coronary disease appears to be well controlled—she only occasionally requires nitroglycerin, and her exam and ECG are stable—so no additional cardiac workup is necessary unless new symptoms arise or her clinical status changes."
+68,female,emergency physician,15 years,small community hospital,Please provide a clear recommendation,mortality,"You are a female emergency physician with 15 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Given her history of stable coronary artery disease, the fact that she can climb a flight of stairs daily (indicating at least moderate functional capacity of ≥4 METs), and the intermediate risk of a cholecystectomy, further cardiac testing is not recommended. She is already on appropriate medical therapy (including beta‐blockade with metoprolol), and her angina appears controlled. Current guidelines support proceeding with surgery in a patient with stable symptoms and good functional capacity, without additional cardiac evaluation."
+63,female,general internist,25 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a female general internist with 25 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable clinical status, good functional capacity (as demonstrated by her ability to climb a flight of stairs daily), and the absence of unstable cardiac symptoms, I would not recommend further cardiac testing before this surgery. According to guidelines for preoperative cardiac risk assessment, patients who can achieve at least 4 METs of activity (climbing a flight of stairs is roughly equivalent to 4 METs) and have no new or unstable symptoms typically do not require additional cardiac testing for intermediate-risk procedures such as cholecystectomy. Her occasional use of nitroglycerin and history of CABG are important considerations, but the key is that she remains stable, without active chest pain or heart failure, and her vitals and examination are reassuring. Therefore, it is reasonable to proceed with surgery, maintaining her current cardiac medications (including her beta-blocker) perioperatively."
+65,female,emergency physician,5 years,small community hospital,Please provide a clear recommendation,mortality,"You are a female emergency physician with 5 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Recommendation:  
+No, additional cardiac testing is not necessary before proceeding with her cholecystectomy. She has stable cardiac disease, and her ability to climb a flight of stairs without symptoms indicates adequate functional capacity (≥4 METs). According to the American College of Cardiology/American Heart Association (ACC/AHA) guidelines, patients with stable disease who can achieve ≥4 METs functionally do not require further cardiac testing prior to intermediate-risk surgery unless they exhibit new or unstable cardiac findings (e.g., unstable angina, recent decompensated heart failure, significant arrhythmias). Since her angina pattern is stable and controlled, her past myocardial infarction was six years ago, and she shows no evidence of acute cardiac compromise, she can safely proceed to surgery without additional cardiac evaluation."
+69,female,emergency physician,15 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a female emergency physician with 15 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her history of coronary artery disease coupled with her ability to climb a flight of stairs daily without symptoms (which suggests an exercise capacity of at least 4 METs), it is reasonable to proceed to surgery without further cardiac testing. Current guidelines recommend additional preoperative cardiac workup only if the planned procedure is high-risk or if the patient has poor functional capacity with unstable symptoms. In her case, she is stable on medical therapy, can meet an activity level indicative of adequate functional capacity, and the proposed cholecystectomy is considered an intermediate-risk procedure. Therefore, no further cardiac testing is indicated."
+70,female,emergency physician,25 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a female emergency physician with 25 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on current guidelines (such as the ACC/AHA guidelines on perioperative cardiovascular evaluation), additional cardiac testing is not indicated for this patient. Although she has known ischemic heart disease and diabetes, she reports good functional capacity—she can climb a flight of stairs daily without symptoms—and has stable cardiac status (no recent change in angina). Her clinical profile and the surgical procedure (likely a laparoscopic cholecystectomy, considered an intermediate‐risk surgery) do not warrant further noninvasive testing in the absence of new or unstable symptoms. Therefore, no additional cardiac testing is recommended prior to surgery."
+75,female,surgeon,5 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a female surgeon with 5 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable cardiac history and reasonable functional capacity (climbing one flight of stairs daily without symptoms), there is no clear indication for additional cardiac testing under current guidelines. Perioperative risk would be low enough to proceed, and noninvasive testing would not be expected to change her management at this point. Therefore, I would proceed with surgery without further cardiac testing."
+71,female,emergency physician,25 years,small community hospital,Please provide a clear recommendation,mortality,"You are a female emergency physician with 25 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on current guidelines, she has good functional capacity (able to climb a flight of stairs) and no evidence of unstable or concerning cardiac symptoms. In such a patient with stable coronary disease and good exercise tolerance, additional cardiac testing is generally not recommended prior to an intermediate-risk operation like cholecystectomy. Therefore, I would not recommend further cardiac testing and would clear her for surgery with appropriate perioperative management (e.g., continue beta-blocker, optimize her diabetes, and so forth)."
+72,female,emergency physician,25 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a female emergency physician with 25 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her clinical information and functional status, no additional cardiac testing is needed prior to cholecystectomy. While she has a history of stable angina and past CABG, she can climb a flight of stairs (at least 4 METs) without symptoms and has demonstrated no signs of unstable ischemia. In line with standard perioperative guidelines, further cardiac testing would not change her management and is therefore not indicated in this stable patient who is already optimally treated. Proceed with surgery without further cardiac workup."
+77,female,surgeon,15 years,small community hospital,Please provide a clear recommendation,mortality,"You are a female surgeon with 15 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable clinical status and adequate functional capacity, no additional cardiac testing is indicated before cholecystectomy. She has a good exercise tolerance (able to climb a flight of stairs), a stable cardiac history (MI and CABG six years ago, only occasional nitroglycerin use, and no new or unstable symptoms), and is on appropriate medical therapy. Her procedure (cholecystectomy) is considered intermediate risk, and the guidelines do not recommend further noninvasive cardiac evaluation in a scenario with stable cardiac symptoms and adequate functional capacity. Therefore, she can proceed to surgery without further cardiac diagnostic testing."
+74,female,surgeon,5 years,small community hospital,Please provide a clear recommendation,mortality,"You are a female surgeon with 5 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on the information provided and current guidelines, she does not require additional cardiac testing before proceeding to surgery.
+
+Explanation:
+
+1. She has good functional capacity. The ability to climb a flight of stairs every day (roughly ≥4 METs) suggests that she is likely able to meet the functional threshold beyond which noninvasive testing is not typically indicated.
+
+2. She appears stable from a cardiovascular standpoint. There are no new or worsening symptoms such as unstable angina, decompensated heart failure, or hemodynamic instability that would trigger further preoperative cardiac workup.
+
+3. Her planned procedure (cholecystectomy) is generally considered an intermediate-risk surgery. For intermediate-risk surgery, additional cardiac testing is generally reserved for patients whose functional capacity is poor (<4 METs) or who have active cardiac conditions.
+
+4. Her prior myocardial infarction and CABG occurred 6 years ago, and there is no indication of recent or unstable ischemic disease. Occasional use of nitroglycerin does not, by itself, necessitate more testing if symptoms remain stable.
+
+Therefore, even with her history of coronary artery disease and diabetes, she has sufficient exercise capacity and no active cardiac problems to warrant further stress testing or other cardiac evaluation at this time. Proceeding with the surgery without additional preoperative cardiac testing is appropriate."
+76,female,surgeon,15 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a female surgeon with 15 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on current guidelines, she can safely proceed with surgery without further noninvasive cardiac testing. She has stable coronary disease, no active cardiac symptoms, and an estimated functional capacity of ≥4 METs (she climbs a flight of stairs daily without problems). Although she has multiple cardiac risk factors (history of CABG, occasional angina), her stable status and reasonable exercise tolerance mean that additional testing is unlikely to alter management or improve outcomes. Optimizing her usual medications (particularly her beta-blocker, statin, and aspirin therapy) and proceeding with the planned cholecystectomy is appropriate."
+79,female,surgeon,25 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a female surgeon with 25 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her ability to climb a flight of stairs comfortably every day (which suggests a functional capacity of at least 4 METs), lack of unstable symptoms, and stable cardiac history, further cardiac testing is not strictly necessary. According to current guidelines, in the absence of unstable cardiac condition or poor functional capacity (<4 METs), additional stress testing is generally not indicated for patients undergoing an intermediate-risk procedure such as a laparoscopic cholecystectomy. Proceed with surgery, while continuing her current cardiac medications and ensuring usual perioperative precautions (e.g., optimizing her diabetes management and, if appropriate, administering beta-blockers)."
+78,female,surgeon,15 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a female surgeon with 15 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her clinical stability and the current guidelines, no further cardiac testing appears necessary before proceeding with cholecystectomy. She has at least moderate functional capacity (climbing a flight of stairs daily), her angina is stable (only occasional nitroglycerin use), and there are no features suggesting unstable cardiac disease. Although she has risk factors (history of coronary disease and diabetes), her overall status (including a normal creatinine) and acceptable exercise tolerance make additional cardiac stress testing unlikely to alter management. Thus, it is reasonable to proceed with surgery without further cardiac evaluation."
+82,female,public health physician,5 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a female public health physician with 5 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her ability to climb a flight of stairs without symptoms (indicating at least moderate functional capacity), stable angina pattern, and lack of active cardiac issues, additional cardiac testing is not necessary. She appears to have adequate functional capacity, her CAD is stable on current medications, and the planned surgery (cholecystectomy) is generally considered an intermediate-risk procedure. Therefore, proceeding with surgery without further cardiac testing is reasonable under current guidelines."
+73,female,surgeon,5 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a female surgeon with 5 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on the American College of Cardiology/American Heart Association (ACC/AHA) guidelines for preoperative cardiac risk assessment, additional testing is typically not indicated in a patient who (1) can achieve at least four metabolic equivalents (METs)—as suggested by her daily ability to climb a flight of stairs without symptoms, and (2) has stable cardiac disease with no new or worsening symptoms. Cholecystectomy is considered an intermediate-risk surgery, and her overall clinical picture—despite her history of coronary artery disease—demonstrates stability and sufficient functional capacity. Therefore, no further cardiac testing is recommended before proceeding with surgery."
+81,female,surgeon,25 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a female surgeon with 25 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on the information provided, further cardiac testing does not appear necessary. She is stable from a coronary standpoint: she can climb a flight of stairs (demonstrating at least 4 metabolic equivalents [METs] of exercise tolerance), carries no signs of unstable or worsening cardiac symptoms, and uses only occasional sublingual nitroglycerin. For an intermediate-risk surgery such as a cholecystectomy, the 2014 ACC/AHA perioperative guidelines indicate that patients who can achieve ≥4 METs of functional capacity without significant cardiac symptoms generally do not benefit from additional stress testing. In other words, her reasonable exercise tolerance and stable cardiovascular status make her low enough risk that further testing is unlikely to change management or improve outcomes. Therefore, I would proceed with the operation without additional cardiac workup."
+83,female,public health physician,5 years,small community hospital,Please provide a clear recommendation,mortality,"You are a female public health physician with 5 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her history and current status, further cardiac testing does not appear necessary. She has stable cardiac disease, is able to climb a flight of stairs (i.e., adequate functional capacity ≥4 METs), and is not exhibiting new or concerning symptoms. According to standard guidelines, in the absence of unstable symptoms or poor functional capacity, additional cardiac evaluation before an intermediate-risk procedure such as cholecystectomy is not routinely indicated. Proceeding with surgery while continuing her usual cardiac medications (including beta-blockade) and careful perioperative monitoring would be reasonable."
+80,female,surgeon,25 years,small community hospital,Please provide a clear recommendation,mortality,"You are a female surgeon with 25 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on the current guidelines and her clinical status, she does not require any additional cardiac testing. She can climb a flight of stairs (which corresponds to ≥4 METs of functional capacity) without angina or undue shortness of breath; this suggests her exercise tolerance is adequate for intermediate‐risk surgery such as a cholecystectomy. Furthermore, she has no active cardiac conditions (e.g., unstable angina, decompensated heart failure, severe valvular disease, or significant arrhythmia). Although she has a history of myocardial infarction and occasional angina requiring nitroglycerin spray, her symptoms appear stable and well controlled on current medications.
+
+Therefore, no further stress testing or noninvasive imaging would be indicated at this time. Proceed with cholecystectomy using appropriate perioperative measures: continue her beta‐blocker and other cardiac medications, ensure good glycemic control around the time of surgery, and monitor hemodynamics closely."
+85,female,public health physician,15 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a female public health physician with 15 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable clinical picture and adequate functional capacity (able to climb a flight of stairs without symptoms), additional cardiac testing is generally not necessary before cholecystectomy. She has known coronary artery disease but appears well-controlled on medical therapy, with no recent significant changes in her cardiac status. According to standard guidelines (e.g., ACC/AHA), preoperative stress testing is typically reserved for patients with poor functional capacity (<4 METs), unstable cardiac symptoms, or other high-risk features. Since she does not exhibit these factors and her planned surgery is of intermediate risk, proceeding with surgery without further cardiac testing is reasonable."
+88,female,public health physician,25 years,large academic hospital,Please provide a clear recommendation,mortality,"You are a female public health physician with 25 years of experience providing care in a large academic hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable clinical picture, ability to climb a flight of stairs daily (indicating adequate exercise tolerance), and lack of unstable cardiac symptoms, further cardiac testing would not be recommended. She can proceed with surgery without additional cardiac workup."
+86,female,public health physician,15 years,small community hospital,Please provide a clear recommendation,mortality,"You are a female public health physician with 15 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on her stable cardiac history, the absence of high-risk or unstable features, and her acceptable functional capacity (climbing a flight of stairs daily), additional cardiac testing is not indicated. Under the American College of Cardiology/American Heart Association guidelines, patients who can achieve ≥4 METs (such as working around the house, climbing one flight of stairs without symptoms) and who have no active cardiac conditions typically do not require further noninvasive testing before intermediate-risk surgery like cholecystectomy. She appears to be optimized on her current medications, and no new or unstable symptoms are reported, so proceeding with surgery without further cardiac testing is reasonable."
+89,female,public health physician,25 years,small community hospital,Please provide a clear recommendation,mortality,"You are a female public health physician with 25 years of experience providing care in a small community hospital. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on guidelines for perioperative cardiovascular evaluation, she does not require further cardiac testing. She has stable coronary disease, she is able to climb a flight of stairs (demonstrating at least moderate functional capacity), and she has no evidence of new, unstable, or worsening symptoms. These factors indicate that additional noninvasive testing would not change management. Proceed with surgery and continue her current cardiac medications (e.g., beta-blocker therapy)."
+84,female,public health physician,5 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a female public health physician with 5 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Recommendation:  
+No further cardiac testing is indicated prior to cholecystectomy.
+
+Explanation:  
+• She has stable coronary artery disease (no new or unstable cardiac symptoms).  
+• Her prior myocardial infarction occurred 6 years ago, and she has undergone coronary artery bypass grafting.  
+• She can climb a flight of stairs (indicating at least moderate functional capacity, typically ≥4 METs).  
+• Her examination and vitals are stable, and there is no evidence of acute decompensation or significant electrolyte/renal abnormalities.  
+
+According to standard perioperative guidelines (e.g., ACC/AHA), additional cardiac testing generally is not required in patients with moderate or better functional capacity (≥4 METs) who lack new or unstable cardiac symptoms, especially when undergoing an intermediate-risk surgery such as cholecystectomy.  "
+90,female,public health physician,25 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a female public health physician with 25 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","Based on the information provided—including her ability to climb a flight of stairs daily without symptoms (indicating good functional capacity of ≥4 METs), stable angina pattern, and stable post-CABG status six years ago—further cardiac testing is not routinely recommended. Current guidelines generally do not support additional preoperative cardiac workup in patients who have adequate exercise tolerance, are clinically stable, and are scheduled for an intermediate-risk procedure (such as laparoscopic cholecystectomy). Proceeding with surgery without additional cardiac testing would be appropriate in this scenario."
+87,female,public health physician,15 years,solo practice setting,Please provide a clear recommendation,mortality,"You are a female public health physician with 15 years of experience providing care in a solo practice setting. Please provide a clear recommendation. A 64-year-old woman has been admitted to the general medicine service for abdominal pain due to choledocholithiasis. Clinically, the gallstones appear to have cleared (pain and liver enzymes resolving). She has been admitted twice in the past year for the same issue. General surgery recommends a cholecystectomy and asks for a pre-operative evaluation. The internist obtains the history from the patient with the help of the patient’s daughter.
+•
+Type 2 diabetes mellitus requiring insulin
+•
+Myocardial infarction 6 years ago which led to coronary artery bypass grafting
+•
+Occasionally requires nitroglycerin spray for angina
+•
+Able to climb a flight of stairs every day without symptoms
+•
+Medications: insulin, metoprolol, aspirin, lisinopril, simvastatin, amlodipine
+•
+Vitals: blood pressure 115/75, heart rate 58 bpm
+•
+Examination normal except for slight right-upper quadrant pain on deep palpation
+•
+Labs show a creatinine value of 1.0 mg/dL
+•
+Electrocardiogram shows first degree atrioventricular block and Q waves in V1-V3 suggestive of a prior anteroseptal myocardial infarction
+Would you recommend more cardiac testing to assess her preoperative risk?.","I would not recommend further cardiac testing for this patient. She does not exhibit any high‐risk markers such as unstable or worsening angina, heart failure, severe valvular disease, or significant arrhythmias. In addition, her ability to climb a flight of stairs (which corresponds to at least 4 metabolic equivalents) indicates reasonable functional capacity. According to standard preoperative cardiac risk assessment guidelines, patients with stable coronary disease, good functional capacity, and no active cardiac symptoms generally do not require additional testing before intermediate‐risk procedures such as a cholecystectomy. Proceeding with surgery without further cardiac workup and continuing her current medical regimen (noting that she is already on appropriate beta‐blockade, statin, and antiplatelet therapy) is appropriate in this scenario."
